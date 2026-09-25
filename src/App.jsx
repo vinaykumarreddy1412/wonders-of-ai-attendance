@@ -9,6 +9,7 @@ import { VolunteerLoginPage } from './pages/VolunteerLoginPage';
 import { VolunteerDashboardPage } from './pages/VolunteerDashboardPage';
 import { AdminLoginPage } from './pages/AdminLoginPage';
 import { AdminDashboardPage } from './pages/AdminDashboardPage';
+import { ErrorBoundary } from './components/ErrorBoundary';
 
 const VALID_ROUTES = [
   '/', 
@@ -20,20 +21,28 @@ const VALID_ROUTES = [
   '/admin/dashboard'
 ];
 
+function normalizeRoute(raw) {
+  if (!raw) return '/';
+  let clean = String(raw).trim();
+  clean = clean.replace(/^#\/?/, '/');
+  if (!clean.startsWith('/')) clean = '/' + clean;
+  clean = clean.replace(/\/+$/, '');
+  if (!clean) clean = '/';
+  return VALID_ROUTES.includes(clean) ? clean : '/';
+}
+
 function Router() {
   const { student, admin, volunteer } = useAuth();
   
   // Get initial route from pathname or hash
   const getInitialRoute = () => {
     if (typeof window === 'undefined') return '/';
-    const hash = window.location.hash.replace(/^#/, '');
-    const cleanHash = hash.startsWith('/') ? hash : '/' + hash;
-    if (hash && VALID_ROUTES.includes(cleanHash)) {
-      return cleanHash;
+    if (window.location.hash) {
+      const parsedHash = normalizeRoute(window.location.hash);
+      if (parsedHash !== '/') return parsedHash;
     }
-    const path = window.location.pathname;
-    if (VALID_ROUTES.includes(path)) {
-      return path;
+    if (window.location.pathname && window.location.pathname !== '/') {
+      return normalizeRoute(window.location.pathname);
     }
     return '/';
   };
@@ -41,27 +50,23 @@ function Router() {
   const [currentRoute, setCurrentRoute] = useState(getInitialRoute);
 
   const navigate = (to) => {
-    setCurrentRoute(to);
-    window.location.hash = to;
-    if (window.history && window.history.pushState) {
-      try {
-        window.history.pushState(null, '', to);
-      } catch (e) {}
-    }
+    const valid = normalizeRoute(to);
+    setCurrentRoute(valid);
+    window.location.hash = valid;
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   useEffect(() => {
     const handleRouteSync = () => {
-      const hash = window.location.hash.replace(/^#/, '');
-      const cleanHash = hash.startsWith('/') ? hash : '/' + hash;
-      if (hash && VALID_ROUTES.includes(cleanHash)) {
-        setCurrentRoute(cleanHash);
-        return;
+      if (window.location.hash) {
+        const fromHash = normalizeRoute(window.location.hash);
+        if (fromHash !== '/') {
+          setCurrentRoute(fromHash);
+          return;
+        }
       }
-      const path = window.location.pathname;
-      if (VALID_ROUTES.includes(path)) {
-        setCurrentRoute(path);
+      if (window.location.pathname) {
+        setCurrentRoute(normalizeRoute(window.location.pathname));
       }
     };
 
@@ -100,13 +105,21 @@ function Router() {
       <Navbar activeRoute={currentRoute} onNavigate={navigate} />
 
       <main className="main-content">
-        {currentRoute === '/' && <HomePage onNavigate={navigate} />}
-        {currentRoute === '/student/login' && <StudentLoginPage onNavigate={navigate} />}
-        {currentRoute === '/student/dashboard' && <StudentDashboardPage onNavigate={navigate} />}
-        {currentRoute === '/volunteer/login' && <VolunteerLoginPage onNavigate={navigate} />}
-        {currentRoute === '/volunteer/dashboard' && <VolunteerDashboardPage onNavigate={navigate} />}
-        {currentRoute === '/admin/login' && <AdminLoginPage onNavigate={navigate} />}
-        {currentRoute === '/admin/dashboard' && <AdminDashboardPage onNavigate={navigate} />}
+        {currentRoute === '/student/login' ? (
+          <StudentLoginPage onNavigate={navigate} />
+        ) : currentRoute === '/student/dashboard' ? (
+          <StudentDashboardPage onNavigate={navigate} />
+        ) : currentRoute === '/volunteer/login' ? (
+          <VolunteerLoginPage onNavigate={navigate} />
+        ) : currentRoute === '/volunteer/dashboard' ? (
+          <VolunteerDashboardPage onNavigate={navigate} />
+        ) : currentRoute === '/admin/login' ? (
+          <AdminLoginPage onNavigate={navigate} />
+        ) : currentRoute === '/admin/dashboard' ? (
+          <AdminDashboardPage onNavigate={navigate} />
+        ) : (
+          <HomePage onNavigate={navigate} />
+        )}
       </main>
 
       <Footer onNavigate={navigate} />
@@ -116,8 +129,10 @@ function Router() {
 
 export default function App() {
   return (
-    <AuthProvider>
-      <Router />
-    </AuthProvider>
+    <ErrorBoundary>
+      <AuthProvider>
+        <Router />
+      </AuthProvider>
+    </ErrorBoundary>
   );
 }
