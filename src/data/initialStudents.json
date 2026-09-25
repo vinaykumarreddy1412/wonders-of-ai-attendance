@@ -1,0 +1,3917 @@
+[
+  {
+    "id": "student_1",
+    "registrationCode": "EUPH-26-852995-S1",
+    "delegateFullName": "Saranya K",
+    "mobileNumber": "8438408688",
+    "college": "P.S.R ENGINEERING COLLEGE",
+    "passCode": "EUPH-26-852995",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_2",
+    "registrationCode": "EUPH-26-FDF507-S1",
+    "delegateFullName": "Lalithambigai",
+    "mobileNumber": "9345848128",
+    "college": "PSR Engineering College",
+    "passCode": "EUPH-26-FDF507",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_3",
+    "registrationCode": "EUPH-26-6E9DD4-S1",
+    "delegateFullName": "Karthika",
+    "mobileNumber": "6383438874",
+    "college": "PSR engineering college",
+    "passCode": "EUPH-26-6E9DD4",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_4",
+    "registrationCode": "EUPH-26-FB994F-S1",
+    "delegateFullName": "Santhiya C",
+    "mobileNumber": "8667314651",
+    "college": "P .S.R Engineering College",
+    "passCode": "EUPH-26-FB994F",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_5",
+    "registrationCode": "EUPH-26-B83E96-S1",
+    "delegateFullName": "Rasitha Sri M",
+    "mobileNumber": "8870297797",
+    "college": "P.S.R Engineering college",
+    "passCode": "EUPH-26-B83E96",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_6",
+    "registrationCode": "EUPH-26-FE081F-S1",
+    "delegateFullName": "Ananya Sree",
+    "mobileNumber": "7395873802",
+    "college": "P.s.r engineering college",
+    "passCode": "EUPH-26-FE081F",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_7",
+    "registrationCode": "EUPH-26-3FCECE-S1",
+    "delegateFullName": "Swetha M",
+    "mobileNumber": "9363218612",
+    "college": "P.S.R Engineering College",
+    "passCode": "EUPH-26-3FCECE",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_8",
+    "registrationCode": "EUPH-26-E9B78C-S1",
+    "delegateFullName": "Abinaya M",
+    "mobileNumber": "7358437708",
+    "college": "Ramco Institute of Technology",
+    "passCode": "EUPH-26-E9B78C",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_9",
+    "registrationCode": "EUPH-26-B06FFC-S1",
+    "delegateFullName": "Kalaiarasi.P",
+    "mobileNumber": "7550237119",
+    "college": "P.S.R.Engineering College",
+    "passCode": "EUPH-26-B06FFC",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_10",
+    "registrationCode": "EUPH-26-DF5C75-S1",
+    "delegateFullName": "sharon Baby",
+    "mobileNumber": "6379858503",
+    "college": "p.s.r engneering college",
+    "passCode": "EUPH-26-DF5C75",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_11",
+    "registrationCode": "EUPH-26-E2444F-S1",
+    "delegateFullName": "Arisudha Arisudha",
+    "mobileNumber": "6369502170",
+    "college": "P.S.R ENGINEERING COLLEGE",
+    "passCode": "EUPH-26-E2444F",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_12",
+    "registrationCode": "EUPH-26-6AC046-S1",
+    "delegateFullName": "GAYATHRI .S",
+    "mobileNumber": "9442125934",
+    "college": "P.S.R Engineering college",
+    "passCode": "EUPH-26-6AC046",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_13",
+    "registrationCode": "EUPH-26-390D5E-S1",
+    "delegateFullName": "D Pavithra",
+    "mobileNumber": "9629989811",
+    "college": "P.S.R ENGINEERING COLLEGE",
+    "passCode": "EUPH-26-390D5E",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_14",
+    "registrationCode": "EUPH-26-75CC4F-S1",
+    "delegateFullName": "Bala Asumathi  S S",
+    "mobileNumber": "8148072610",
+    "college": "P.S.R ENGINEERING COLLEGE",
+    "passCode": "EUPH-26-75CC4F",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_15",
+    "registrationCode": "EUPH-26-91B808-S1",
+    "delegateFullName": "Beula Paranjothi",
+    "mobileNumber": "9360303215",
+    "college": "PSR Engineering college",
+    "passCode": "EUPH-26-91B808",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_16",
+    "registrationCode": "EUPH-26-31B106-S1",
+    "delegateFullName": "Karthi Keyan",
+    "mobileNumber": "7010772505",
+    "college": "S.Veerasamy chettiyar collage of engineering and technology",
+    "passCode": "EUPH-26-31B106",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_17",
+    "registrationCode": "EUPH-26-E81659-S1",
+    "delegateFullName": "Evanjali A",
+    "mobileNumber": "8056342997",
+    "college": "P.S.R.Engineering college",
+    "passCode": "EUPH-26-E81659",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_18",
+    "registrationCode": "EUPH-26-0DCCFF-S1",
+    "delegateFullName": "Dharshinika",
+    "mobileNumber": "9790081466",
+    "college": "P.S.R.Engineering College",
+    "passCode": "EUPH-26-0DCCFF",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_19",
+    "registrationCode": "EUPH-26-129D65-S1",
+    "delegateFullName": "muthu lakshmi.S",
+    "mobileNumber": "6379313053",
+    "college": "Psr engineering college",
+    "passCode": "EUPH-26-129D65",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_20",
+    "registrationCode": "EUPH-26-6AB907-S1",
+    "delegateFullName": "S.Mukila Shree",
+    "mobileNumber": "6383660035",
+    "college": "PSR Engineering College",
+    "passCode": "EUPH-26-6AB907",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_21",
+    "registrationCode": "EUPH-26-E2DAB8-S1",
+    "delegateFullName": "K Divya",
+    "mobileNumber": "8778184395",
+    "college": "PSR Engineering College",
+    "passCode": "EUPH-26-E2DAB8",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_22",
+    "registrationCode": "EUPH-26-149ABC-S1",
+    "delegateFullName": "Dharshini Prem",
+    "mobileNumber": "8148439278",
+    "college": "Ramco institute of technology",
+    "passCode": "EUPH-26-149ABC",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_23",
+    "registrationCode": "EUPH-26-D64134-S1",
+    "delegateFullName": "Nagalakshmi",
+    "mobileNumber": "9790742055",
+    "college": "PSR Engineering College",
+    "passCode": "EUPH-26-D64134",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_24",
+    "registrationCode": "EUPH-26-702C63-S1",
+    "delegateFullName": "Sri Balatharshini A",
+    "mobileNumber": "9942173206",
+    "college": "P.S.R engineering college",
+    "passCode": "EUPH-26-702C63",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_25",
+    "registrationCode": "EUPH-26-C89774-S1",
+    "delegateFullName": "Murugajothi M",
+    "mobileNumber": "6382667472",
+    "college": "P.S.R Engineering college",
+    "passCode": "EUPH-26-C89774",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_26",
+    "registrationCode": "EUPH-26-986C48-S1",
+    "delegateFullName": "ANEM AMARNADH 2025-CSE",
+    "mobileNumber": "9063162223",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-986C48",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_27",
+    "registrationCode": "EUPH-26-B72445-S1",
+    "delegateFullName": "YADAVAKUNTA HIMAPRAGNA 2025-CSE",
+    "mobileNumber": "7013452232",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-B72445",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_28",
+    "registrationCode": "EUPH-26-9C540F-S1",
+    "delegateFullName": "PULIKONDA VENKATA VIGNESH 2025-CSE",
+    "mobileNumber": "9392182103",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-9C540F",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_29",
+    "registrationCode": "EUPH-26-BF64D9-S1",
+    "delegateFullName": "Sudhir A",
+    "mobileNumber": "9360729913",
+    "college": "Mepco Schlenk engineering college",
+    "passCode": "EUPH-26-BF64D9",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_30",
+    "registrationCode": "EUPH-26-025EC7-S1",
+    "delegateFullName": "DAMINENI BALAJI KUMAR 2025-AI & DS",
+    "mobileNumber": "9063237130",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-025EC7",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_31",
+    "registrationCode": "EUPH-26-E360C4-S1",
+    "delegateFullName": "Ajay P",
+    "mobileNumber": "9342819646",
+    "college": "Mepco Schlenk Engineering College",
+    "passCode": "EUPH-26-E360C4",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_32",
+    "registrationCode": "EUPH-26-3B697C-S1",
+    "delegateFullName": "Sri Karthikeyan",
+    "mobileNumber": "9342808838",
+    "college": "Mepco Schlenk Engineering College",
+    "passCode": "EUPH-26-3B697C",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_33",
+    "registrationCode": "EUPH-26-D567AD-S1",
+    "delegateFullName": "GANJI ESWAR",
+    "mobileNumber": "9059149224",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-D567AD",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_34",
+    "registrationCode": "EUPH-26-2EEA3C-S1",
+    "delegateFullName": "CHENNA SUBBANNAGARI LOHITH KUMAR REDDY",
+    "mobileNumber": "6281494994",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-2EEA3C",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_35",
+    "registrationCode": "EUPH-26-62EC52-S1",
+    "delegateFullName": "P. Pooja",
+    "mobileNumber": "9043776224",
+    "college": "Velammal college of engineering and technology",
+    "passCode": "EUPH-26-62EC52",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_36",
+    "registrationCode": "EUPH-26-81FA92-S1",
+    "delegateFullName": "Sakthi Raj Pandian A",
+    "mobileNumber": "9385588967",
+    "college": "Mepco Schlenk engineering college",
+    "passCode": "EUPH-26-81FA92",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_37",
+    "registrationCode": "EUPH-26-4AE4E4-S1",
+    "delegateFullName": "Sam Thesigan M",
+    "mobileNumber": "8825652885",
+    "college": "Mepco Schlenk engineering college",
+    "passCode": "EUPH-26-4AE4E4",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_38",
+    "registrationCode": "EUPH-26-C4062F-S1",
+    "delegateFullName": "KANNIMATHA V",
+    "mobileNumber": "9150127424",
+    "college": "VELAMMAL COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "passCode": "EUPH-26-C4062F",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_39",
+    "registrationCode": "EUPH-26-96B5F7-S1",
+    "delegateFullName": "Mahalakshmi R",
+    "mobileNumber": "7810028094",
+    "college": "PSR Engineering College",
+    "passCode": "EUPH-26-96B5F7",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_40",
+    "registrationCode": "EUPH-26-3ECE57-S1",
+    "delegateFullName": "Priya Dharshini K",
+    "mobileNumber": "6379941768",
+    "college": "P.S.R engineering college",
+    "passCode": "EUPH-26-3ECE57",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_41",
+    "registrationCode": "EUPH-26-135857-S1",
+    "delegateFullName": "Tamilselvan G",
+    "mobileNumber": "7550120809",
+    "college": "Sethu institute of technology",
+    "passCode": "EUPH-26-135857",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_42",
+    "registrationCode": "EUPH-26-BD3210-S1",
+    "delegateFullName": "Swathi Rajendran",
+    "mobileNumber": "9500780464",
+    "college": "Psr engineering college",
+    "passCode": "EUPH-26-BD3210",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_43",
+    "registrationCode": "EUPH-26-6E7461-S1",
+    "delegateFullName": "Dhivya Dharshini",
+    "mobileNumber": "8610453876",
+    "college": "PSR Engineering College",
+    "passCode": "EUPH-26-6E7461",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_44",
+    "registrationCode": "EUPH-26-CA2DCF-S1",
+    "delegateFullName": "Beswin Joe B",
+    "mobileNumber": "7538856797",
+    "college": "St. Xavier's Catholic College of Engineering",
+    "passCode": "EUPH-26-CA2DCF",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_45",
+    "registrationCode": "EUPH-26-DF23C0-S1",
+    "delegateFullName": "Anne Steffy",
+    "mobileNumber": "7604916925",
+    "college": "St.Xavier's catholic college of Engineering",
+    "passCode": "EUPH-26-DF23C0",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_46",
+    "registrationCode": "EUPH-26-306FC5-S1",
+    "delegateFullName": "ATHIRA S",
+    "mobileNumber": "7845438169",
+    "college": "St Xavier's catholic college of engineering .chunkankadai",
+    "passCode": "EUPH-26-306FC5",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_47",
+    "registrationCode": "EUPH-26-A29A7B-S1",
+    "delegateFullName": "Bensingh J",
+    "mobileNumber": "7305774652",
+    "college": "St.xavier's catholic college of engineering, Nagercoil",
+    "passCode": "EUPH-26-A29A7B",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_48",
+    "registrationCode": "EUPH-26-BCAD87-S1",
+    "delegateFullName": "Belgin Lino",
+    "mobileNumber": "7598479920",
+    "college": "St.Xavier's Catholic College of Engineering",
+    "passCode": "EUPH-26-BCAD87",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_49",
+    "registrationCode": "EUPH-26-8112A8-S1",
+    "delegateFullName": "Bevan w rishi",
+    "mobileNumber": "9486253582",
+    "college": "St Xavier catholic of engineering",
+    "passCode": "EUPH-26-8112A8",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_50",
+    "registrationCode": "EUPH-26-56091F-S1",
+    "delegateFullName": "ADSHAYA A",
+    "mobileNumber": "8300488506",
+    "college": "St.Xavier's Catholic College of Engineering",
+    "passCode": "EUPH-26-56091F",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_51",
+    "registrationCode": "EUPH-26-53B8E8-S1",
+    "delegateFullName": "Earnest Abraham E A",
+    "mobileNumber": "9043945850",
+    "college": "St. Xavier's Catholic College of Engineering",
+    "passCode": "EUPH-26-53B8E8",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_52",
+    "registrationCode": "EUPH-26-908856-S1",
+    "delegateFullName": "Dharun Pandi",
+    "mobileNumber": "7010192011",
+    "college": "Kamaraj college of engineering and technology",
+    "passCode": "EUPH-26-908856",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_53",
+    "registrationCode": "EUPH-26-4E901D-S1",
+    "delegateFullName": "Kanishk Rajadurai",
+    "mobileNumber": "8608431369",
+    "college": "Kamaraj College of engineering and technology",
+    "passCode": "EUPH-26-4E901D",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_54",
+    "registrationCode": "EUPH-26-3AB7FD-S1",
+    "delegateFullName": "Simson",
+    "mobileNumber": "9360087284",
+    "college": "Kamaraj college of engineering and technol",
+    "passCode": "EUPH-26-3AB7FD",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_55",
+    "registrationCode": "EUPH-26-97D037-S1",
+    "delegateFullName": "Gokul M",
+    "mobileNumber": "7598667634",
+    "college": "velammal collage of engineering  technology",
+    "passCode": "EUPH-26-97D037",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_56",
+    "registrationCode": "EUPH-26-18BAA6-S1",
+    "delegateFullName": "Naveen Raj",
+    "mobileNumber": "9342248247",
+    "college": "M.Kumarasamy College of Engineering",
+    "passCode": "EUPH-26-18BAA6",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_57",
+    "registrationCode": "EUPH-26-4B4A1B-S1",
+    "delegateFullName": "AJAY RATHINAM R M 2025-CSE",
+    "mobileNumber": "9585380296",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-4B4A1B",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_58",
+    "registrationCode": "EUPH-26-7D5D04-S1",
+    "delegateFullName": "S. Balagurubaran 2025-EEE",
+    "mobileNumber": "9043343853",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-7D5D04",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_59",
+    "registrationCode": "EUPH-26-B1C870-S1",
+    "delegateFullName": "PALLAPOTHU AKSHAY 2025-CSE",
+    "mobileNumber": "6309047076",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-B1C870",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_60",
+    "registrationCode": "EUPH-26-390C0F-S1",
+    "delegateFullName": "POLISETTY YASWANTH PHANI KUMAR 2025-CSE",
+    "mobileNumber": "9493643729",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-390C0F",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_61",
+    "registrationCode": "EUPH-26-F5C0C7-S1",
+    "delegateFullName": "Y Naga Sreeja",
+    "mobileNumber": "6281922796",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-F5C0C7",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_62",
+    "registrationCode": "EUPH-26-9BE104-S1",
+    "delegateFullName": "Sujith M",
+    "mobileNumber": "9177118032",
+    "college": "Mgr University",
+    "passCode": "EUPH-26-9BE104",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_63",
+    "registrationCode": "EUPH-26-5BEA3E-S1",
+    "delegateFullName": "RAJAPURAM POOJITHA",
+    "mobileNumber": "7801093684",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-5BEA3E",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_64",
+    "registrationCode": "EUPH-26-CD3A1C-S1",
+    "delegateFullName": "Vinay Mamedesetti",
+    "mobileNumber": "8688054882",
+    "college": "Mgr university",
+    "passCode": "EUPH-26-CD3A1C",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_65",
+    "registrationCode": "EUPH-26-5BEC1A-S1",
+    "delegateFullName": "Ahil",
+    "mobileNumber": "9003568611",
+    "college": "erode sengunthar engineering college",
+    "passCode": "EUPH-26-5BEC1A",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_66",
+    "registrationCode": "EUPH-26-4AB91D-S1",
+    "delegateFullName": "POLANKI VYSHNAVI 2024-IT",
+    "mobileNumber": "7013003632",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-4AB91D",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_67",
+    "registrationCode": "EUPH-26-11C300-S1",
+    "delegateFullName": "Nilafhar Nisha",
+    "mobileNumber": "9566805706",
+    "college": "erode sengunthar engineering college",
+    "passCode": "EUPH-26-11C300",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_68",
+    "registrationCode": "EUPH-26-BB45CB-S1",
+    "delegateFullName": "abinithi",
+    "mobileNumber": "6382088921",
+    "college": "erode sengunthar engineering college",
+    "passCode": "EUPH-26-BB45CB",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_69",
+    "registrationCode": "EUPH-26-3A2A99-S1",
+    "delegateFullName": "Akitha",
+    "mobileNumber": "7305239792",
+    "college": "erode sengunthar engineering college",
+    "passCode": "EUPH-26-3A2A99",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_70",
+    "registrationCode": "EUPH-26-F244E7-S1",
+    "delegateFullName": "Abisheck",
+    "mobileNumber": "9751225845",
+    "college": "erode sengunthar engineering college",
+    "passCode": "EUPH-26-F244E7",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_71",
+    "registrationCode": "EUPH-26-5CBF95-S1",
+    "delegateFullName": "SRINIVASAN R 2023-BCA",
+    "mobileNumber": "8111037717",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-5CBF95",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_72",
+    "registrationCode": "EUPH-26-ED6F1A-S1",
+    "delegateFullName": "Kailash .m",
+    "mobileNumber": "7904507246",
+    "college": "saveetha university",
+    "passCode": "EUPH-26-ED6F1A",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_73",
+    "registrationCode": "EUPH-26-93820D-S1",
+    "delegateFullName": "Sree Pachin Siyam S",
+    "mobileNumber": "8124142296",
+    "college": "Mepco Schlenk Engineering College",
+    "passCode": "EUPH-26-93820D",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_74",
+    "registrationCode": "EUPH-26-0C9207-S1",
+    "delegateFullName": "ANUSHEK R K 902427",
+    "mobileNumber": "9751266303",
+    "college": "St.Xavier's Catholic College Nagercoil",
+    "passCode": "EUPH-26-0C9207",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_75",
+    "registrationCode": "EUPH-26-7BEEAC-S1",
+    "delegateFullName": "Pragadeeswar R",
+    "mobileNumber": "9944252847",
+    "college": "Mepco Schlenk Engineering College",
+    "passCode": "EUPH-26-7BEEAC",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_76",
+    "registrationCode": "EUPH-26-275880-S1",
+    "delegateFullName": "Naresh Kanha S",
+    "mobileNumber": "8248026923",
+    "college": "Mepco schlenk engineering college",
+    "passCode": "EUPH-26-275880",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_77",
+    "registrationCode": "EUPH-26-D6D897-S1",
+    "delegateFullName": "Mahalakshmi Raju",
+    "mobileNumber": "9655147483",
+    "college": "Government College of Engineering Srirangam",
+    "passCode": "EUPH-26-D6D897",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_78",
+    "registrationCode": "EUPH-26-8AAB0E-S1",
+    "delegateFullName": "BLESSY JEBINA J 25ADR026",
+    "mobileNumber": "8072004142",
+    "college": "Francis Xavier's engineering College",
+    "passCode": "EUPH-26-8AAB0E",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_79",
+    "registrationCode": "EUPH-26-4FB8F6-S1",
+    "delegateFullName": "Uvan M",
+    "mobileNumber": "6374372337",
+    "college": "SRM MADURAI COLLEGE FOR ENGINEERING AND TECHNOLOGY",
+    "passCode": "EUPH-26-4FB8F6",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_80",
+    "registrationCode": "EUPH-26-108EA3-S1",
+    "delegateFullName": "Jacshan J p",
+    "mobileNumber": "8610632373",
+    "college": "St.xaviers catholic college of engineering, Chunkankadai",
+    "passCode": "EUPH-26-108EA3",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_81",
+    "registrationCode": "EUPH-26-607CA0-S1",
+    "delegateFullName": "Ashin .R",
+    "mobileNumber": "6374161566",
+    "college": "St.xavier's catholic college of engineering Nagercoil",
+    "passCode": "EUPH-26-607CA0",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_82",
+    "registrationCode": "EUPH-26-8565BF-S1",
+    "delegateFullName": "AKHASH",
+    "mobileNumber": "9487258096",
+    "college": "St Xavier's catholic College of engineering",
+    "passCode": "EUPH-26-8565BF",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_83",
+    "registrationCode": "EUPH-26-0CBF71-S1",
+    "delegateFullName": "FARVAESH MUSHRAF M",
+    "mobileNumber": "8925798439",
+    "college": "NANDHA ENGINEERING COLLEGE",
+    "passCode": "EUPH-26-0CBF71",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_84",
+    "registrationCode": "EUPH-26-76327B-S1",
+    "delegateFullName": "ASTLIN DIJO",
+    "mobileNumber": "9037574576",
+    "college": "St. Xavier's Catholic College Of Engineering",
+    "passCode": "EUPH-26-76327B",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_85",
+    "registrationCode": "EUPH-26-876760-S1",
+    "delegateFullName": "Ajitharavind",
+    "mobileNumber": "9344482332",
+    "college": "St.Xavier's catholic college of engineering Nagercoil",
+    "passCode": "EUPH-26-876760",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_86",
+    "registrationCode": "EUPH-26-04237A-S1",
+    "delegateFullName": "Darshan Riju",
+    "mobileNumber": "8925105212",
+    "college": "Manickam Ramaswami College of arts and sciences",
+    "passCode": "EUPH-26-04237A",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_87",
+    "registrationCode": "EUPH-26-6CE56A-S1",
+    "delegateFullName": "ibrahim jaffar",
+    "mobileNumber": "6385855236",
+    "college": "Mrcas",
+    "passCode": "EUPH-26-6CE56A",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_88",
+    "registrationCode": "EUPH-26-56980F-S1",
+    "delegateFullName": "karthikeyan venkatesh k v",
+    "mobileNumber": "9942495665",
+    "college": "Manikam Ramaswami College of Arts and Science",
+    "passCode": "EUPH-26-56980F",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_89",
+    "registrationCode": "EUPH-26-929C0F-S1",
+    "delegateFullName": "Shiek ahamed yasin",
+    "mobileNumber": "8072446130",
+    "college": "MRCAS",
+    "passCode": "EUPH-26-929C0F",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_90",
+    "registrationCode": "EUPH-26-A226B5-S1",
+    "delegateFullName": "Hari Prasanth",
+    "mobileNumber": "8838122770",
+    "college": "MRCAS",
+    "passCode": "EUPH-26-A226B5",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_91",
+    "registrationCode": "EUPH-26-47AA6E-S1",
+    "delegateFullName": "Suriya Priyan. A",
+    "mobileNumber": "6383311890",
+    "college": "Saveetha university",
+    "passCode": "EUPH-26-47AA6E",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_92",
+    "registrationCode": "EUPH-26-E5ADEE-S1",
+    "delegateFullName": "Ariharan VS",
+    "mobileNumber": "9962860418",
+    "college": "SIMATS ( saveetha institute of medical and technical sciences)",
+    "passCode": "EUPH-26-E5ADEE",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_93",
+    "registrationCode": "EUPH-26-CB4F58-S1",
+    "delegateFullName": "KARUNAKARAN N",
+    "mobileNumber": "9787725475",
+    "college": "BANNARI AMMAN INSTITUTE OF TECHNOLOGY",
+    "passCode": "EUPH-26-CB4F58",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_94",
+    "registrationCode": "EUPH-26-342C9E-S1",
+    "delegateFullName": "KAMATCHI A",
+    "mobileNumber": "9363462524",
+    "college": "BANNARI AMMAN INSTITUTE OF TECHOLOGY",
+    "passCode": "EUPH-26-342C9E",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_95",
+    "registrationCode": "EUPH-26-DB4CB0-S1",
+    "delegateFullName": "SHRI SHETHRA R",
+    "mobileNumber": "6379043085",
+    "college": "Bannari Amman Institute Of Technology",
+    "passCode": "EUPH-26-DB4CB0",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_96",
+    "registrationCode": "EUPH-26-4E6C7A-S1",
+    "delegateFullName": "SARANYA K",
+    "mobileNumber": "9344988625",
+    "college": "BannariAmman institute of technology",
+    "passCode": "EUPH-26-4E6C7A",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_97",
+    "registrationCode": "EUPH-26-CF284A-S1",
+    "delegateFullName": "SHIVANI E",
+    "mobileNumber": "7010517001",
+    "college": "BANNARI AMMAN INSTITUTE OF TECHNOLOGY",
+    "passCode": "EUPH-26-CF284A",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_98",
+    "registrationCode": "EUPH-26-8D60FF-S1",
+    "delegateFullName": "Aswak Hussain A",
+    "mobileNumber": "6383669554",
+    "college": "V.S.B. College of Engineering Technical Campus",
+    "passCode": "EUPH-26-8D60FF",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_99",
+    "registrationCode": "EUPH-26-CB08C2-S1",
+    "delegateFullName": "Arun Sandosh Subramaniam S S",
+    "mobileNumber": "8489142072",
+    "college": "V.S.B. College of Engineering Technical Campus",
+    "passCode": "EUPH-26-CB08C2",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_100",
+    "registrationCode": "EUPH-26-DA12F7-S1",
+    "delegateFullName": "M.TANMAYA SREE",
+    "mobileNumber": "7032245899",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-DA12F7",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_101",
+    "registrationCode": "EUPH-26-36A6E8-S1",
+    "delegateFullName": "varshu shankar",
+    "mobileNumber": "7539969248",
+    "college": "Kamaraj college of engineering and technology",
+    "passCode": "EUPH-26-36A6E8",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_102",
+    "registrationCode": "EUPH-26-1DCBB1-S1",
+    "delegateFullName": "Sree Lekha S",
+    "mobileNumber": "7448842008",
+    "college": "Kamaraj college of engineering and technology",
+    "passCode": "EUPH-26-1DCBB1",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_103",
+    "registrationCode": "EUPH-26-F5A7FF-S1",
+    "delegateFullName": "TRIDEV R 2025-AIDS",
+    "mobileNumber": "7306158393",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-F5A7FF",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_104",
+    "registrationCode": "EUPH-26-031169-S1",
+    "delegateFullName": "PARAMASIVAN S",
+    "mobileNumber": "9442892421",
+    "college": "Thiagarajar College Of Engineering",
+    "passCode": "EUPH-26-031169",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_105",
+    "registrationCode": "EUPH-26-0E1CE1-S1",
+    "delegateFullName": "Jagadish J",
+    "mobileNumber": "6381428869",
+    "college": "SRM Madurai college for engineering and technology",
+    "passCode": "EUPH-26-0E1CE1",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_106",
+    "registrationCode": "EUPH-26-F758BC-S1",
+    "delegateFullName": "SUKANYA RM",
+    "mobileNumber": "6369123958",
+    "college": "Thiagarajar college of engineering",
+    "passCode": "EUPH-26-F758BC",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_107",
+    "registrationCode": "EUPH-26-A2171D-S1",
+    "delegateFullName": "Jeeva Varshini",
+    "mobileNumber": "8148775547",
+    "college": "SRM Madurai college for engineering and technology",
+    "passCode": "EUPH-26-A2171D",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_108",
+    "registrationCode": "EUPH-26-E17DB7-S1",
+    "delegateFullName": "Moulin Daris D",
+    "mobileNumber": "9566896153",
+    "college": "Mepco Schlenk Engineering College",
+    "passCode": "EUPH-26-E17DB7",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_109",
+    "registrationCode": "EUPH-26-9F6140-S1",
+    "delegateFullName": "Navein Kumar B R",
+    "mobileNumber": "8610277363",
+    "college": "Mepco Schlenk Engineering College,SivaKasi",
+    "passCode": "EUPH-26-9F6140",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_110",
+    "registrationCode": "EUPH-26-48929E-S1",
+    "delegateFullName": "Prasanth Narayanan V S",
+    "mobileNumber": "8015928461",
+    "college": "Srm madurai college for engineering and technology",
+    "passCode": "EUPH-26-48929E",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_111",
+    "registrationCode": "EUPH-26-3A599A-S1",
+    "delegateFullName": "Logitha S",
+    "mobileNumber": "7904898068",
+    "college": "SRM Madurai College For Engineering and Technology Sivagangai",
+    "passCode": "EUPH-26-3A599A",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_112",
+    "registrationCode": "EUPH-26-AA5488-S1",
+    "delegateFullName": "SAHANA M",
+    "mobileNumber": "9629611257",
+    "college": "Thiagarajar College of Engineering",
+    "passCode": "EUPH-26-AA5488",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_113",
+    "registrationCode": "EUPH-26-0EE73A-S1",
+    "delegateFullName": "DINESH KUMAR .D",
+    "mobileNumber": "7200821129",
+    "college": "VSB College of engineering technical campus",
+    "passCode": "EUPH-26-0EE73A",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_114",
+    "registrationCode": "EUPH-26-52C639-S1",
+    "delegateFullName": "Abdul Basith Rahman k",
+    "mobileNumber": "9842352729",
+    "college": "V.S.B college of engineering and technical campus",
+    "passCode": "EUPH-26-52C639",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_115",
+    "registrationCode": "EUPH-26-D647A4-S1",
+    "delegateFullName": "Mahesh M S K",
+    "mobileNumber": "8489453684",
+    "college": "SRM Madurai College For Engineering and Technology Sivagangai",
+    "passCode": "EUPH-26-D647A4",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_116",
+    "registrationCode": "EUPH-26-A1A5A3-S1",
+    "delegateFullName": "PRANITHA C",
+    "mobileNumber": "8870249329",
+    "college": "NANDHA ENGINEERING COLLEGE",
+    "passCode": "EUPH-26-A1A5A3",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_117",
+    "registrationCode": "EUPH-26-7FB710-S1",
+    "delegateFullName": "Mohanraj N",
+    "mobileNumber": "7904577019",
+    "college": "Mepco Schlenk Engineering College",
+    "passCode": "EUPH-26-7FB710",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_118",
+    "registrationCode": "EUPH-26-0F152C-S1",
+    "delegateFullName": "ASHWIN",
+    "mobileNumber": "8668044805",
+    "college": "VSB College of Engineering Technical Campus",
+    "passCode": "EUPH-26-0F152C",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_119",
+    "registrationCode": "EUPH-26-936251-S1",
+    "delegateFullName": "SHANSITA G",
+    "mobileNumber": "9500944222",
+    "college": "Thiagarajar College of Engineering",
+    "passCode": "EUPH-26-936251",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_120",
+    "registrationCode": "EUPH-26-37AE05-S1",
+    "delegateFullName": "AKSHAY N",
+    "mobileNumber": "9043114526",
+    "college": "Thiagarajar College of Engineering",
+    "passCode": "EUPH-26-37AE05",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_121",
+    "registrationCode": "EUPH-26-C02079-S1",
+    "delegateFullName": "KOMMOJU BHAVYA SRI LAKSHMI 2025-CSE",
+    "mobileNumber": "9154024285",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-C02079",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_122",
+    "registrationCode": "EUPH-26-469806-S1",
+    "delegateFullName": "JANARTHANAN R",
+    "mobileNumber": "9384163713",
+    "college": "NANDHA ENGINEERING COLLEGE",
+    "passCode": "EUPH-26-469806",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_123",
+    "registrationCode": "EUPH-26-C684A8-S1",
+    "delegateFullName": "PRADEEPA M",
+    "mobileNumber": "6374102907",
+    "college": "NANDHA ENGINEERING COLLEGE",
+    "passCode": "EUPH-26-C684A8",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_124",
+    "registrationCode": "EUPH-26-9E34CB-S1",
+    "delegateFullName": "JEEVITHA S.",
+    "mobileNumber": "9344101084",
+    "college": "NANDHA ENGINEERING COLLEGE",
+    "passCode": "EUPH-26-9E34CB",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_125",
+    "registrationCode": "EUPH-26-723751-S1",
+    "delegateFullName": "Hariprasath",
+    "mobileNumber": "6374137741",
+    "college": "Simats university",
+    "passCode": "EUPH-26-723751",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_126",
+    "registrationCode": "EUPH-26-AB3815-S1",
+    "delegateFullName": "JAIGANESH R",
+    "mobileNumber": "8248813326",
+    "college": "Saveetha university",
+    "passCode": "EUPH-26-AB3815",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_127",
+    "registrationCode": "EUPH-26-249B88-S1",
+    "delegateFullName": "SRI KIRAN MONISH M S 2025-CSE",
+    "mobileNumber": "9361813852",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-249B88",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_128",
+    "registrationCode": "EUPH-26-174CB7-S1",
+    "delegateFullName": "ARUN KARTHIKEYAN S 2025-CSE",
+    "mobileNumber": "8610805812",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-174CB7",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_129",
+    "registrationCode": "EUPH-26-A36932-S1",
+    "delegateFullName": "Ananth P",
+    "mobileNumber": "7603972688",
+    "college": "BANNARI AMMAN INSTITUTE OF TECHNOLOGY",
+    "passCode": "EUPH-26-A36932",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_130",
+    "registrationCode": "EUPH-26-73C4CF-S1",
+    "delegateFullName": "Vishal Marimuthu",
+    "mobileNumber": "8903484896",
+    "college": "Bannari Amman Institute of technology",
+    "passCode": "EUPH-26-73C4CF",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_131",
+    "registrationCode": "EUPH-26-0A0174-S1",
+    "delegateFullName": "Thamarai Kabilan T",
+    "mobileNumber": "6383719761",
+    "college": "Bannari Amman Institute Of Technology",
+    "passCode": "EUPH-26-0A0174",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_132",
+    "registrationCode": "EUPH-26-E1CF40-S1",
+    "delegateFullName": "SURESH S U",
+    "mobileNumber": "9566790378",
+    "college": "Bannari Amman Institute of Technology",
+    "passCode": "EUPH-26-E1CF40",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_133",
+    "registrationCode": "EUPH-26-F234F1-S1",
+    "delegateFullName": "Selva Sharan P",
+    "mobileNumber": "9345334119",
+    "college": "Bannari Amman Institute of Technology",
+    "passCode": "EUPH-26-F234F1",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_134",
+    "registrationCode": "EUPH-26-0252E8-S1",
+    "delegateFullName": "KANISH S",
+    "mobileNumber": "8220784340",
+    "college": "Bannari Amman Institute of Technolgy",
+    "passCode": "EUPH-26-0252E8",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_135",
+    "registrationCode": "EUPH-26-1D08E1-S1",
+    "delegateFullName": "THILAK K",
+    "mobileNumber": "9787534585",
+    "college": "Bannari Amman Institute of Technology",
+    "passCode": "EUPH-26-1D08E1",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_136",
+    "registrationCode": "EUPH-26-96D8F4-S1",
+    "delegateFullName": "Bala Ganesh",
+    "mobileNumber": "6380888864",
+    "college": "kamaraj college of engineering and technology",
+    "passCode": "EUPH-26-96D8F4",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_137",
+    "registrationCode": "EUPH-26-1A74E0-S1",
+    "delegateFullName": "Dalwin Raju",
+    "mobileNumber": "7598939521",
+    "college": "Government College of engineering sirangam",
+    "passCode": "EUPH-26-1A74E0",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_138",
+    "registrationCode": "EUPH-26-4F12FF-S1",
+    "delegateFullName": "Infant T",
+    "mobileNumber": "9150896205",
+    "college": "vel tech high-tech engineering college",
+    "passCode": "EUPH-26-4F12FF",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_139",
+    "registrationCode": "EUPH-26-2337AB-S1",
+    "delegateFullName": "Dhanush S",
+    "mobileNumber": "8754390268",
+    "college": "Erode Sengunthar Engineering College",
+    "passCode": "EUPH-26-2337AB",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_140",
+    "registrationCode": "EUPH-26-A587D5-S1",
+    "delegateFullName": "SUBIKSHA LAKSHMI M",
+    "mobileNumber": "7550397115",
+    "college": "P.S.R.R College of Engineering",
+    "passCode": "EUPH-26-A587D5",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_141",
+    "registrationCode": "EUPH-26-B22144-S1",
+    "delegateFullName": "Anandh",
+    "mobileNumber": "8300656693",
+    "college": "Mepco schlenk engineering college",
+    "passCode": "EUPH-26-B22144",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_142",
+    "registrationCode": "EUPH-26-826DD1-S1",
+    "delegateFullName": "Ram Meyyappan A",
+    "mobileNumber": "9994399207",
+    "college": "SRM Madurai College for Engineering",
+    "passCode": "EUPH-26-826DD1",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_143",
+    "registrationCode": "EUPH-26-74F21B-S1",
+    "delegateFullName": "Thiru Balaji S",
+    "mobileNumber": "8015524894",
+    "college": "SNS college of technology",
+    "passCode": "EUPH-26-74F21B",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_144",
+    "registrationCode": "EUPH-26-302E28-S1",
+    "delegateFullName": "KODIDELA HAINDAVI 2025-CSE",
+    "mobileNumber": "9642335948",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-302E28",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_145",
+    "registrationCode": "EUPH-26-E51AC6-S1",
+    "delegateFullName": "CHITTAMURU MOUNIKA 2025-ECE",
+    "mobileNumber": "6309544329",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-E51AC6",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_146",
+    "registrationCode": "EUPH-26-1E264D-S1",
+    "delegateFullName": "CHINTHAM JHANSI 2025-CSE",
+    "mobileNumber": "7702245557",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-1E264D",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_147",
+    "registrationCode": "EUPH-26-9FB08E-S1",
+    "delegateFullName": "Kesavan G",
+    "mobileNumber": "6382308704",
+    "college": "Mepco schlenk engineering college",
+    "passCode": "EUPH-26-9FB08E",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_148",
+    "registrationCode": "EUPH-26-4A487C-S1",
+    "delegateFullName": "ELAKKIYAN T",
+    "mobileNumber": "9360267598",
+    "college": "Mepco Schlenk Engineering College",
+    "passCode": "EUPH-26-4A487C",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_149",
+    "registrationCode": "EUPH-26-536086-S1",
+    "delegateFullName": "Dinesh Kumar",
+    "mobileNumber": "9952252197",
+    "college": "Mepco Schlenk Engineering College",
+    "passCode": "EUPH-26-536086",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_150",
+    "registrationCode": "EUPH-26-929285-S1",
+    "delegateFullName": "2046 32 SHEIK MOHAMED S",
+    "mobileNumber": "8667092006",
+    "college": "SRM Madurai College For Engineering and Technology",
+    "passCode": "EUPH-26-929285",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_151",
+    "registrationCode": "EUPH-26-5555A6-S1",
+    "delegateFullName": "Sheik mohamed S",
+    "mobileNumber": "8667092008",
+    "college": "SRM MADURAI COLLEGE for engineering and technology",
+    "passCode": "EUPH-26-5555A6",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_152",
+    "registrationCode": "EUPH-26-AEE7B6-S1",
+    "delegateFullName": "Devadharshini M",
+    "mobileNumber": "6385547582",
+    "college": "SRM Madurai College Of Engineering And Technology",
+    "passCode": "EUPH-26-AEE7B6",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_153",
+    "registrationCode": "EUPH-26-B4C43C-S1",
+    "delegateFullName": "Yuthica Sudhakar",
+    "mobileNumber": "9941011177",
+    "college": "SRM Madurai College for Engineering and Technology",
+    "passCode": "EUPH-26-B4C43C",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_154",
+    "registrationCode": "EUPH-26-D51350-S1",
+    "delegateFullName": "Aashifa S",
+    "mobileNumber": "9092502503",
+    "college": "SRM MADURAI COLLEGE for engineering and technology",
+    "passCode": "EUPH-26-D51350",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_155",
+    "registrationCode": "EUPH-26-FF5538-S1",
+    "delegateFullName": "Inzamam Ulhaq",
+    "mobileNumber": "6385853425",
+    "college": "SRM MADURAI COLLEGE FOR ENGINEERING AND TECHNOLOGY",
+    "passCode": "EUPH-26-FF5538",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_156",
+    "registrationCode": "EUPH-26-D9C685-S1",
+    "delegateFullName": "Shereen Shifa J",
+    "mobileNumber": "9842094942",
+    "college": "SRM Madurai college for engineering and technology",
+    "passCode": "EUPH-26-D9C685",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_157",
+    "registrationCode": "EUPH-26-9C06C7-S1",
+    "delegateFullName": "Olivia Grace S",
+    "mobileNumber": "8220562544",
+    "college": "SRM MADURAI COLLEGE FOR ENGINEERING AND TECHNOLOGY",
+    "passCode": "EUPH-26-9C06C7",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_158",
+    "registrationCode": "EUPH-26-DF2253-S1",
+    "delegateFullName": "Barisha Thuslim",
+    "mobileNumber": "6379032120",
+    "college": "SRM Madurai College For Engineering and Technology",
+    "passCode": "EUPH-26-DF2253",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_159",
+    "registrationCode": "EUPH-26-527E94-S1",
+    "delegateFullName": "RIZWAN AHMED M",
+    "mobileNumber": "9865075786",
+    "college": "SRM Madurai College For Engineering And Technology",
+    "passCode": "EUPH-26-527E94",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_160",
+    "registrationCode": "EUPH-26-84ABE5-S1",
+    "delegateFullName": "Pooja Shree",
+    "mobileNumber": "9962735666",
+    "college": "SRM MADURAI COLLEGE FOR ENGINEERING AND TECHNOLOGY",
+    "passCode": "EUPH-26-84ABE5",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_161",
+    "registrationCode": "EUPH-26-D9C276-S1",
+    "delegateFullName": "VIBUSHINI J R",
+    "mobileNumber": "9344143282",
+    "college": "SRM Madurai College For Engineering And Technology",
+    "passCode": "EUPH-26-D9C276",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_162",
+    "registrationCode": "EUPH-26-4A00F0-S1",
+    "delegateFullName": "MOUNESH M",
+    "mobileNumber": "9629044790",
+    "college": "SRM MADURAI COLLEGE FOR ENGINEERING AND TECHNOLOGY",
+    "passCode": "EUPH-26-4A00F0",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_163",
+    "registrationCode": "EUPH-26-896A0F-S1",
+    "delegateFullName": "Ponvannan M",
+    "mobileNumber": "8608612325",
+    "college": "SRM MADURAI COLLEGE FOR ENGENEERING AND TECHNOLOGY",
+    "passCode": "EUPH-26-896A0F",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_164",
+    "registrationCode": "EUPH-26-31AACD-S1",
+    "delegateFullName": "Harish P",
+    "mobileNumber": "9629323888",
+    "college": "SRM MADURAI COLLEGE FOR ENGINEERING AND TECHNOLOGY",
+    "passCode": "EUPH-26-31AACD",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_165",
+    "registrationCode": "EUPH-26-68D822-S1",
+    "delegateFullName": "Dharsan S S",
+    "mobileNumber": "8946070924",
+    "college": "SRM Madurai College for Engineering and Technology",
+    "passCode": "EUPH-26-68D822",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_166",
+    "registrationCode": "EUPH-26-2416CC-S1",
+    "delegateFullName": "KAVINKUMAR RAMESH",
+    "mobileNumber": "8608060331",
+    "college": "SRM Madurai college for engineering and technology",
+    "passCode": "EUPH-26-2416CC",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_167",
+    "registrationCode": "EUPH-26-3E4050-S1",
+    "delegateFullName": "Hareezzvijey RJ",
+    "mobileNumber": "8220983187",
+    "college": "SRM MADURAI COLLEGE FOR ENGINEERING AND TECHNOLOGY",
+    "passCode": "EUPH-26-3E4050",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_168",
+    "registrationCode": "EUPH-26-1972F1-S1",
+    "delegateFullName": "Nivetha Anbarasan",
+    "mobileNumber": "7845246195",
+    "college": "Dhanalakshmi srinivasan university",
+    "passCode": "EUPH-26-1972F1",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_169",
+    "registrationCode": "EUPH-26-629302-S1",
+    "delegateFullName": "Ragavi Ragavi",
+    "mobileNumber": "9751139953",
+    "college": "Kamaraj college of engineering and technology",
+    "passCode": "EUPH-26-629302",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_170",
+    "registrationCode": "EUPH-26-8D78B9-S1",
+    "delegateFullName": "Benitta Yazhini",
+    "mobileNumber": "7200305212",
+    "college": "kcet",
+    "passCode": "EUPH-26-8D78B9",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_171",
+    "registrationCode": "EUPH-26-EDD1A0-S1",
+    "delegateFullName": "Akshaya",
+    "mobileNumber": "7339657375",
+    "college": "Kamaraj college of engineering and technology",
+    "passCode": "EUPH-26-EDD1A0",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_172",
+    "registrationCode": "EUPH-26-FBC379-S1",
+    "delegateFullName": "SriAishwarya D",
+    "mobileNumber": "6374759348",
+    "college": "Kamaraj College of Engineering and Technology",
+    "passCode": "EUPH-26-FBC379",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_173",
+    "registrationCode": "EUPH-26-C75B2D-S1",
+    "delegateFullName": "Joshua L",
+    "mobileNumber": "7845126145",
+    "college": "M.Kumarasamy college of engineering",
+    "passCode": "EUPH-26-C75B2D",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_174",
+    "registrationCode": "EUPH-26-70EFA1-S1",
+    "delegateFullName": "Pranav P",
+    "mobileNumber": "6383906217",
+    "college": "M.kumarasamy college of engineering",
+    "passCode": "EUPH-26-70EFA1",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_175",
+    "registrationCode": "EUPH-26-59F969-S1",
+    "delegateFullName": "Jeeva Jeffrin",
+    "mobileNumber": "7397796962",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-59F969",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_176",
+    "registrationCode": "EUPH-26-E3DF2B-S1",
+    "delegateFullName": "Kavitha",
+    "mobileNumber": "8778940654",
+    "college": "Kamaraj college of engineering and technology",
+    "passCode": "EUPH-26-E3DF2B",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_177",
+    "registrationCode": "EUPH-26-399836-S1",
+    "delegateFullName": "Sindhuja .N",
+    "mobileNumber": "7538840821",
+    "college": "Kamaraj College Of Engineering And Technology Virudhunagar",
+    "passCode": "EUPH-26-399836",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_178",
+    "registrationCode": "EUPH-26-F0FCB4-S1",
+    "delegateFullName": "Santhiya Saravanan",
+    "mobileNumber": "8608599623",
+    "college": "Kamaraj college of engineering and technology",
+    "passCode": "EUPH-26-F0FCB4",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_179",
+    "registrationCode": "EUPH-26-F51DBF-S1",
+    "delegateFullName": "Elango M",
+    "mobileNumber": "7904597841",
+    "college": "M.Kumarasamy college of engineering",
+    "passCode": "EUPH-26-F51DBF",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_180",
+    "registrationCode": "EUPH-26-DCEA07-S1",
+    "delegateFullName": "Darshan",
+    "mobileNumber": "8754379559",
+    "college": "M.Kumarasamy college of engineering",
+    "passCode": "EUPH-26-DCEA07",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_181",
+    "registrationCode": "EUPH-26-1F41E6-S1",
+    "delegateFullName": "KARTHICK RAJA B",
+    "mobileNumber": "7010637870",
+    "college": "M.Kumaraswamy college of engineering",
+    "passCode": "EUPH-26-1F41E6",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_182",
+    "registrationCode": "EUPH-26-C7C608-S1",
+    "delegateFullName": "Bathirinath S S",
+    "mobileNumber": "9344432891",
+    "college": "M.Kumarasamy college of engineering",
+    "passCode": "EUPH-26-C7C608",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_183",
+    "registrationCode": "EUPH-26-F62E9E-S1",
+    "delegateFullName": "JAMAL KHAN I",
+    "mobileNumber": "8124547437",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-F62E9E",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_184",
+    "registrationCode": "EUPH-26-560370-S1",
+    "delegateFullName": "AJMAL KHAN I",
+    "mobileNumber": "9487863732",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-560370",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_185",
+    "registrationCode": "EUPH-26-E08E54-S1",
+    "delegateFullName": "SASITHARAN S",
+    "mobileNumber": "9942151355",
+    "college": "M Kumarasamy college of engineering",
+    "passCode": "EUPH-26-E08E54",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_186",
+    "registrationCode": "EUPH-26-98C825-S1",
+    "delegateFullName": "Sathish V",
+    "mobileNumber": "7397639722",
+    "college": "M kumarasamy college of engineering",
+    "passCode": "EUPH-26-98C825",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_187",
+    "registrationCode": "EUPH-26-8AFD80-S1",
+    "delegateFullName": "Saran K",
+    "mobileNumber": "7010284939",
+    "college": "M.kumarasamy college of Engineering",
+    "passCode": "EUPH-26-8AFD80",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_188",
+    "registrationCode": "EUPH-26-EAED5A-S1",
+    "delegateFullName": "Poovendhiran V",
+    "mobileNumber": "8015340054",
+    "college": "M.Kumaraswamy college of engineering",
+    "passCode": "EUPH-26-EAED5A",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_189",
+    "registrationCode": "EUPH-26-D1704C-S1",
+    "delegateFullName": "Sam Sundar",
+    "mobileNumber": "6380217243",
+    "college": "M.kumarasamay collage of engineering",
+    "passCode": "EUPH-26-D1704C",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_190",
+    "registrationCode": "EUPH-26-441C32-S1",
+    "delegateFullName": "Navaneethan T",
+    "mobileNumber": "7601905665",
+    "college": "M. kumaraswamy college of engineering",
+    "passCode": "EUPH-26-441C32",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_191",
+    "registrationCode": "EUPH-26-655094-S1",
+    "delegateFullName": "ASAM HARINI",
+    "mobileNumber": "7601008945",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-655094",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_192",
+    "registrationCode": "EUPH-26-A9DD67-S1",
+    "delegateFullName": "Srinath S",
+    "mobileNumber": "8122502892",
+    "college": "M.Kumarasamy College of engineering",
+    "passCode": "EUPH-26-A9DD67",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_193",
+    "registrationCode": "EUPH-26-FE9DEB-S1",
+    "delegateFullName": "Mathiyazhagan.R",
+    "mobileNumber": "8610641112",
+    "college": "M.kumarasamy college of engineering",
+    "passCode": "EUPH-26-FE9DEB",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_194",
+    "registrationCode": "EUPH-26-7AF3AD-S1",
+    "delegateFullName": "Shridar Shri",
+    "mobileNumber": "6369134496",
+    "college": "M.KUMARASAMY COLLEGE OF ENGINEERING",
+    "passCode": "EUPH-26-7AF3AD",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_195",
+    "registrationCode": "EUPH-26-1762B2-S1",
+    "delegateFullName": "Santhosh Kumar S",
+    "mobileNumber": "8637605020",
+    "college": "M.KUMARASAMY COLLEGE OF ENGINEERING",
+    "passCode": "EUPH-26-1762B2",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_196",
+    "registrationCode": "EUPH-26-EC1816-S1",
+    "delegateFullName": "Jayasree M",
+    "mobileNumber": "8110803650",
+    "college": "AAA COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "passCode": "EUPH-26-EC1816",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_197",
+    "registrationCode": "EUPH-26-666294-S1",
+    "delegateFullName": "Balakrishna S",
+    "mobileNumber": "6379649029",
+    "college": "M kumarasamy college of engineering",
+    "passCode": "EUPH-26-666294",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_198",
+    "registrationCode": "EUPH-26-E73490-S1",
+    "delegateFullName": "Hemanth",
+    "mobileNumber": "8015283799",
+    "college": "M Kumarasamy College of Engineering",
+    "passCode": "EUPH-26-E73490",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_199",
+    "registrationCode": "EUPH-26-3A96F0-S1",
+    "delegateFullName": "Vishnu Dheshetha C",
+    "mobileNumber": "8056959465",
+    "college": "Velammal college of engineering and technology",
+    "passCode": "EUPH-26-3A96F0",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_200",
+    "registrationCode": "EUPH-26-8DB9C8-S1",
+    "delegateFullName": "lokit",
+    "mobileNumber": "9095352232",
+    "college": "M kumarasamy college of engineering",
+    "passCode": "EUPH-26-8DB9C8",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_201",
+    "registrationCode": "EUPH-26-9AA199-S1",
+    "delegateFullName": "Kamalesh K",
+    "mobileNumber": "6369704778",
+    "college": "M. Kumarasamy College Of Engineering",
+    "passCode": "EUPH-26-9AA199",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_202",
+    "registrationCode": "EUPH-26-41E29C-S1",
+    "delegateFullName": "PERUGU CHINMAI",
+    "mobileNumber": "6303973665",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-41E29C",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_203",
+    "registrationCode": "EUPH-26-1AAD6F-S1",
+    "delegateFullName": "MANO PRABHA M",
+    "mobileNumber": "9597663130",
+    "college": "Aaa College of Engineering and Technology",
+    "passCode": "EUPH-26-1AAD6F",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_204",
+    "registrationCode": "EUPH-26-D67EF0-S1",
+    "delegateFullName": "Muneeswari V",
+    "mobileNumber": "7305159536",
+    "college": "AAA COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "passCode": "EUPH-26-D67EF0",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_205",
+    "registrationCode": "EUPH-26-0B8904-S1",
+    "delegateFullName": "Sudharshan",
+    "mobileNumber": "7806801370",
+    "college": "Erode Sengunthar Engineering College",
+    "passCode": "EUPH-26-0B8904",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_206",
+    "registrationCode": "EUPH-26-29D7E8-S1",
+    "delegateFullName": "MUTHU NIVETHITHA K",
+    "mobileNumber": "6374506386",
+    "college": "AAA College of Engineering And Technology Amathur",
+    "passCode": "EUPH-26-29D7E8",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_207",
+    "registrationCode": "EUPH-26-2F4442-S1",
+    "delegateFullName": "MUTHU NANDHINI S",
+    "mobileNumber": "6379137988",
+    "college": "AAA College of Engineering And Technology Amathur",
+    "passCode": "EUPH-26-2F4442",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_208",
+    "registrationCode": "EUPH-26-03C7C3-S1",
+    "delegateFullName": "KISSHORE N",
+    "mobileNumber": "7904606357",
+    "college": "M. Kumarasamy College of Engineering",
+    "passCode": "EUPH-26-03C7C3",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_209",
+    "registrationCode": "EUPH-26-0DB3D1-S1",
+    "delegateFullName": "Swedha K",
+    "mobileNumber": "9843463799",
+    "college": "M.kumarasamy college of engineering",
+    "passCode": "EUPH-26-0DB3D1",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_210",
+    "registrationCode": "EUPH-26-C2BD06-S1",
+    "delegateFullName": "JASSIR J A 2025-CSE",
+    "mobileNumber": "9361613446",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-C2BD06",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_211",
+    "registrationCode": "EUPH-26-74F5F9-S1",
+    "delegateFullName": "Bavishya D",
+    "mobileNumber": "8668165500",
+    "college": "M.kumarasamy college of engineering",
+    "passCode": "EUPH-26-74F5F9",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_212",
+    "registrationCode": "EUPH-26-EF140E-S1",
+    "delegateFullName": "HARISH ARAVINTH B S S 2025-CSE",
+    "mobileNumber": "8778225293",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-EF140E",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_213",
+    "registrationCode": "EUPH-26-1D80A9-S1",
+    "delegateFullName": "JEEVA DARWIN M 2025-CSE",
+    "mobileNumber": "9842072422",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-1D80A9",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_214",
+    "registrationCode": "EUPH-26-F5C0B4-S1",
+    "delegateFullName": "Oviya Sundar",
+    "mobileNumber": "8610692322",
+    "college": "M.Kumarasamy  College of Engineering",
+    "passCode": "EUPH-26-F5C0B4",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_215",
+    "registrationCode": "EUPH-26-FA12C0-S1",
+    "delegateFullName": "Nagulshree Thiyagarajan",
+    "mobileNumber": "9865672688",
+    "college": "M.kumarasamy college of engineering",
+    "passCode": "EUPH-26-FA12C0",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_216",
+    "registrationCode": "EUPH-26-FB12E8-S1",
+    "delegateFullName": "Kaviya dharshini M",
+    "mobileNumber": "8667284642",
+    "college": "AAA COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "passCode": "EUPH-26-FB12E8",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_217",
+    "registrationCode": "EUPH-26-EBCEAB-S1",
+    "delegateFullName": "KALLUDEVAKUNTA SAI PRAVEEN 2024-CSE",
+    "mobileNumber": "7396957419",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-EBCEAB",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_218",
+    "registrationCode": "EUPH-26-E30CDB-S1",
+    "delegateFullName": "SUDALAGUNTA PRAVEEN KUMAR",
+    "mobileNumber": "9032844051",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-E30CDB",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_219",
+    "registrationCode": "EUPH-26-E791F7-S1",
+    "delegateFullName": "Mohit S",
+    "mobileNumber": "9442463304",
+    "college": "M.Kumarasamy College Of Engineering",
+    "passCode": "EUPH-26-E791F7",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_220",
+    "registrationCode": "EUPH-26-02BBDA-S1",
+    "delegateFullName": "NITHISH R",
+    "mobileNumber": "9487776225",
+    "college": "M.Kumarasamy College of Engineering",
+    "passCode": "EUPH-26-02BBDA",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_221",
+    "registrationCode": "EUPH-26-7D28A0-S1",
+    "delegateFullName": "Kirubath S",
+    "mobileNumber": "8072826075",
+    "college": "M.Kumarasamy College Of Engineering",
+    "passCode": "EUPH-26-7D28A0",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_222",
+    "registrationCode": "EUPH-26-D98989-S1",
+    "delegateFullName": "BHARATHEES K",
+    "mobileNumber": "8754646149",
+    "college": "Bannari Amman Institute of technology",
+    "passCode": "EUPH-26-D98989",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_223",
+    "registrationCode": "EUPH-26-B0C71E-S1",
+    "delegateFullName": "NISWAN S",
+    "mobileNumber": "8610564642",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-B0C71E",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_224",
+    "registrationCode": "EUPH-26-2CA2ED-S1",
+    "delegateFullName": "Anbu Selvan",
+    "mobileNumber": "9080184674",
+    "college": "st. josephs college of engineering",
+    "passCode": "EUPH-26-2CA2ED",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_225",
+    "registrationCode": "EUPH-26-6BEEF0-S1",
+    "delegateFullName": "MOHAMMED ASHFAR M",
+    "mobileNumber": "6381413557",
+    "college": "bannari amman institute of technology",
+    "passCode": "EUPH-26-6BEEF0",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_226",
+    "registrationCode": "EUPH-26-4DC1A0-S1",
+    "delegateFullName": "VISHNU SELVAN",
+    "mobileNumber": "6379504537",
+    "college": "BANNARI AMMAN INSTITUTE OF TECHNOLOGY",
+    "passCode": "EUPH-26-4DC1A0",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_227",
+    "registrationCode": "EUPH-26-1EE5D0-S1",
+    "delegateFullName": "GOKUL V",
+    "mobileNumber": "9787473195",
+    "college": "BANNARI AMMAN INSTITUTE OF TECHNOLOGY",
+    "passCode": "EUPH-26-1EE5D0",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_228",
+    "registrationCode": "EUPH-26-B30AD8-S1",
+    "delegateFullName": "GOWTHAM M",
+    "mobileNumber": "9566353702",
+    "college": "Bannari amman institute of technology",
+    "passCode": "EUPH-26-B30AD8",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_229",
+    "registrationCode": "EUPH-26-FA73D9-S1",
+    "delegateFullName": "DINESH J",
+    "mobileNumber": "8220548344",
+    "college": "Bannari Amman Institute of technology",
+    "passCode": "EUPH-26-FA73D9",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_230",
+    "registrationCode": "EUPH-26-EFBB15-S1",
+    "delegateFullName": "ARULSANKARAN N",
+    "mobileNumber": "9487942010",
+    "college": "Bannari Amman Institute of Technology",
+    "passCode": "EUPH-26-EFBB15",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_231",
+    "registrationCode": "EUPH-26-F58E72-S1",
+    "delegateFullName": "SASIKUMAR E",
+    "mobileNumber": "7708354776",
+    "college": "BANNARI AMMAN INSTITUTE OF TECHNOLOGY",
+    "passCode": "EUPH-26-F58E72",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_232",
+    "registrationCode": "EUPH-26-5CBE56-S1",
+    "delegateFullName": "SOUNDHAR RAJ V",
+    "mobileNumber": "6380831039",
+    "college": "Bannari Amman Institute of Technology",
+    "passCode": "EUPH-26-5CBE56",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_233",
+    "registrationCode": "EUPH-26-E63D0C-S1",
+    "delegateFullName": "LATHIKA K",
+    "mobileNumber": "8646378198",
+    "college": "Nadar saraswathi college of engineering and technology",
+    "passCode": "EUPH-26-E63D0C",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_234",
+    "registrationCode": "EUPH-26-7ABBE1-S1",
+    "delegateFullName": "Monisha.S",
+    "mobileNumber": "9385626104",
+    "college": "Nadar Saraswati college of engineering and technology",
+    "passCode": "EUPH-26-7ABBE1",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_235",
+    "registrationCode": "EUPH-26-B37494-S1",
+    "delegateFullName": "M Bhavadharani",
+    "mobileNumber": "9500642964",
+    "college": "NADAR SARASWATHI COLLEGE OF ENGINEERING AND TECHNOLOOGY",
+    "passCode": "EUPH-26-B37494",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_236",
+    "registrationCode": "EUPH-26-F8F62B-S1",
+    "delegateFullName": "Nitharshana.S",
+    "mobileNumber": "7339403802",
+    "college": "Nadar saraswathi college id engineering and techology",
+    "passCode": "EUPH-26-F8F62B",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_237",
+    "registrationCode": "EUPH-26-363D4B-S1",
+    "delegateFullName": "ZAMANULLAH SHAIKH",
+    "mobileNumber": "7050590085",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-363D4B",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_238",
+    "registrationCode": "EUPH-26-167F00-S1",
+    "delegateFullName": "santhosi s",
+    "mobileNumber": "6380524230",
+    "college": "NADAR SARASWATHI COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "passCode": "EUPH-26-167F00",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_239",
+    "registrationCode": "EUPH-26-943F65-S1",
+    "delegateFullName": "Kani priya S",
+    "mobileNumber": "7299799704",
+    "college": "Nadar saraswathi college of engineering and technology",
+    "passCode": "EUPH-26-943F65",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_240",
+    "registrationCode": "EUPH-26-933B46-S1",
+    "delegateFullName": "GANESH KUMAR B",
+    "mobileNumber": "8754255766",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-933B46",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_241",
+    "registrationCode": "EUPH-26-331275-S1",
+    "delegateFullName": "R KRISH",
+    "mobileNumber": "9626686003",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-331275",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_242",
+    "registrationCode": "EUPH-26-3F5BAD-S1",
+    "delegateFullName": "A.LEONARD JOEGAN",
+    "mobileNumber": "8778464238",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-3F5BAD",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_243",
+    "registrationCode": "EUPH-26-17D9AA-S1",
+    "delegateFullName": "RATHINAGIRI N",
+    "mobileNumber": "9360006800",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-17D9AA",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_244",
+    "registrationCode": "EUPH-26-9DB278-S1",
+    "delegateFullName": "S AJAY CHIDAMBARAM 2025-CSE",
+    "mobileNumber": "9789258196",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-9DB278",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_245",
+    "registrationCode": "EUPH-26-0AE3A6-S1",
+    "delegateFullName": "Nethra V",
+    "mobileNumber": "8825977818",
+    "college": "Nadar Saraswathi college of engineering and technology",
+    "passCode": "EUPH-26-0AE3A6",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_246",
+    "registrationCode": "EUPH-26-B46117-S1",
+    "delegateFullName": "Bharathi M",
+    "mobileNumber": "8695376447",
+    "college": "Nadar saraswati college of engineering and technology",
+    "passCode": "EUPH-26-B46117",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_247",
+    "registrationCode": "EUPH-26-E2B616-S1",
+    "delegateFullName": "Samrutha P",
+    "mobileNumber": "9363329501",
+    "college": "Nadar Saraswathi college of engineering and technology",
+    "passCode": "EUPH-26-E2B616",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_248",
+    "registrationCode": "EUPH-26-C43699-S1",
+    "delegateFullName": "Mohamed Rafiq R H",
+    "mobileNumber": "8838396691",
+    "college": "Kamaraj college of engineering and technology",
+    "passCode": "EUPH-26-C43699",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_249",
+    "registrationCode": "EUPH-26-728AB4-S1",
+    "delegateFullName": "Gauri sankaran",
+    "mobileNumber": "8122434593",
+    "college": "Kamaraj college of engineering and technology",
+    "passCode": "EUPH-26-728AB4",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_250",
+    "registrationCode": "EUPH-26-701C2B-S1",
+    "delegateFullName": "shakthiguru",
+    "mobileNumber": "6381532937",
+    "college": "Kamaraj college of engineering and technology",
+    "passCode": "EUPH-26-701C2B",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_251",
+    "registrationCode": "EUPH-26-387B42-S1",
+    "delegateFullName": "ADITHYAN G",
+    "mobileNumber": "9645916219",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-387B42",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_252",
+    "registrationCode": "EUPH-26-157586-S1",
+    "delegateFullName": "AADITHYA P",
+    "mobileNumber": "9487920707",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-157586",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_253",
+    "registrationCode": "EUPH-26-EDE6B9-S1",
+    "delegateFullName": "AJAY M",
+    "mobileNumber": "9865331750",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-EDE6B9",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_254",
+    "registrationCode": "EUPH-26-47C417-S1",
+    "delegateFullName": "ASVIKA R",
+    "mobileNumber": "6369318197",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-47C417",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_255",
+    "registrationCode": "EUPH-26-912244-S1",
+    "delegateFullName": "Visshaal Ramachandran",
+    "mobileNumber": "9080174288",
+    "college": "Saveetha University",
+    "passCode": "EUPH-26-912244",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_256",
+    "registrationCode": "EUPH-26-5C915A-S1",
+    "delegateFullName": "S.aishwarya",
+    "mobileNumber": "9843470339",
+    "college": "Kamaraj college of engineering and technology",
+    "passCode": "EUPH-26-5C915A",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_257",
+    "registrationCode": "EUPH-26-87F3AF-S1",
+    "delegateFullName": "Harini Murugan",
+    "mobileNumber": "8072339489",
+    "college": "Vellamal college of engineering and technology",
+    "passCode": "EUPH-26-87F3AF",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_258",
+    "registrationCode": "EUPH-26-DE6E51-S1",
+    "delegateFullName": "Kaushik N R",
+    "mobileNumber": "9345757836",
+    "college": "Mepco Schelnk Engineering College",
+    "passCode": "EUPH-26-DE6E51",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_259",
+    "registrationCode": "EUPH-26-A6010E-S1",
+    "delegateFullName": "BATTINA GOVARDHAN 2025-CSE",
+    "mobileNumber": "8309113252",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-A6010E",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_260",
+    "registrationCode": "EUPH-26-E481F7-S1",
+    "delegateFullName": "Soorya Sankar R",
+    "mobileNumber": "6383279985",
+    "college": "Mepco Schlenk Engineering College",
+    "passCode": "EUPH-26-E481F7",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_261",
+    "registrationCode": "EUPH-26-6F26A8-S1",
+    "delegateFullName": "Kanisha sri S",
+    "mobileNumber": "7200822700",
+    "college": "Velammal college of engineering and technology",
+    "passCode": "EUPH-26-6F26A8",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_262",
+    "registrationCode": "EUPH-26-70E80D-S1",
+    "delegateFullName": "Janushya T",
+    "mobileNumber": "9486905478",
+    "college": "Velammal college of engineering and technology",
+    "passCode": "EUPH-26-70E80D",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_263",
+    "registrationCode": "EUPH-26-B5F53E-S1",
+    "delegateFullName": "Rubika M",
+    "mobileNumber": "7339328104",
+    "college": "Velammal College of Engineering and Technology",
+    "passCode": "EUPH-26-B5F53E",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_264",
+    "registrationCode": "EUPH-26-D6A5BA-S1",
+    "delegateFullName": "DHARSHINI G",
+    "mobileNumber": "8825755051",
+    "college": "PSNA College Of Engineering And Technology",
+    "passCode": "EUPH-26-D6A5BA",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_265",
+    "registrationCode": "EUPH-26-9B18DF-S1",
+    "delegateFullName": "Manoj Kumar",
+    "mobileNumber": "9342856247",
+    "college": "aaa college of engineering",
+    "passCode": "EUPH-26-9B18DF",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_266",
+    "registrationCode": "EUPH-26-0167D3-S1",
+    "delegateFullName": "ABARNA V",
+    "mobileNumber": "9043324884",
+    "college": "AAA college of engineering and technology",
+    "passCode": "EUPH-26-0167D3",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_267",
+    "registrationCode": "EUPH-26-CA8E1F-S1",
+    "delegateFullName": "Saabiha Banu R",
+    "mobileNumber": "6380126380",
+    "college": "AAA college of engineering and technology",
+    "passCode": "EUPH-26-CA8E1F",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_268",
+    "registrationCode": "EUPH-26-8735EC-S1",
+    "delegateFullName": "Karikolraj G",
+    "mobileNumber": "7200024583",
+    "college": "Mepco Schlenk Engineering College",
+    "passCode": "EUPH-26-8735EC",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_269",
+    "registrationCode": "EUPH-26-2D686D-S1",
+    "delegateFullName": "Priyashalini J",
+    "mobileNumber": "9384720656",
+    "college": "AAA college of engineering and technology",
+    "passCode": "EUPH-26-2D686D",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_270",
+    "registrationCode": "EUPH-26-5BC7FA-S1",
+    "delegateFullName": "Dattatreya M K",
+    "mobileNumber": "6369116359",
+    "college": "Mepco schlenk engineering college",
+    "passCode": "EUPH-26-5BC7FA",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_271",
+    "registrationCode": "EUPH-26-551349-S1",
+    "delegateFullName": "SOUNDARYA V",
+    "mobileNumber": "6369356099",
+    "college": "AAA college of Engineering and Technology",
+    "passCode": "EUPH-26-551349",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_272",
+    "registrationCode": "EUPH-26-3A7BCB-S1",
+    "delegateFullName": "Rathi M",
+    "mobileNumber": "7603906320",
+    "college": "PSNA College of Engineering and Technology.",
+    "passCode": "EUPH-26-3A7BCB",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_273",
+    "registrationCode": "EUPH-26-8F1C8F-S1",
+    "delegateFullName": "Ponswetha S",
+    "mobileNumber": "8248528117",
+    "college": "AAA COLLAGE OF ENGINEERING AND TECHNOLOGY",
+    "passCode": "EUPH-26-8F1C8F",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_274",
+    "registrationCode": "EUPH-26-AB7AB4-S1",
+    "delegateFullName": "Muthu Sharmitha P",
+    "mobileNumber": "6380106891",
+    "college": "AAA COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "passCode": "EUPH-26-AB7AB4",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_275",
+    "registrationCode": "EUPH-26-E41EE7-S1",
+    "delegateFullName": "Kasi Gurulakshmi M",
+    "mobileNumber": "9360475757",
+    "college": "AAA college of Engineering and Technology",
+    "passCode": "EUPH-26-E41EE7",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_276",
+    "registrationCode": "EUPH-26-B0D416-S1",
+    "delegateFullName": "Ilakkiya",
+    "mobileNumber": "8124745249",
+    "college": "AAA college of engineering and technology",
+    "passCode": "EUPH-26-B0D416",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_277",
+    "registrationCode": "EUPH-26-7F6223-S1",
+    "delegateFullName": "Basireddy Bavesh reddy",
+    "mobileNumber": "8317653473",
+    "college": "kalasalingam",
+    "passCode": "EUPH-26-7F6223",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_278",
+    "registrationCode": "EUPH-26-998DBA-S1",
+    "delegateFullName": "Rajeshwari R",
+    "mobileNumber": "9345653484",
+    "college": "PSNA COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "passCode": "EUPH-26-998DBA",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_279",
+    "registrationCode": "EUPH-26-E4A2D5-S1",
+    "delegateFullName": "Ponveerammal R",
+    "mobileNumber": "6385741256",
+    "college": "PSNA COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "passCode": "EUPH-26-E4A2D5",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_280",
+    "registrationCode": "EUPH-26-12A1ED-S1",
+    "delegateFullName": "Sopiyasri s",
+    "mobileNumber": "8220639973",
+    "college": "Kamaraj college of engineering and tecnology",
+    "passCode": "EUPH-26-12A1ED",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_281",
+    "registrationCode": "EUPH-26-E24A94-S1",
+    "delegateFullName": "Sri Meenatchi",
+    "mobileNumber": "9751701600",
+    "college": "Kamaraj College of Engineering and Technology",
+    "passCode": "EUPH-26-E24A94",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_282",
+    "registrationCode": "EUPH-26-8D7965-S1",
+    "delegateFullName": "Divya R",
+    "mobileNumber": "9190877310",
+    "college": "Kamaraj college of engineering and technology",
+    "passCode": "EUPH-26-8D7965",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_283",
+    "registrationCode": "EUPH-26-951288-S1",
+    "delegateFullName": "Joe Claris Pio",
+    "mobileNumber": "7708772016",
+    "college": "Mepco schlenk engineering college",
+    "passCode": "EUPH-26-951288",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_284",
+    "registrationCode": "EUPH-26-3E1E70-S1",
+    "delegateFullName": "tamil selvan",
+    "mobileNumber": "7604802220",
+    "college": "SIMATS engineering",
+    "passCode": "EUPH-26-3E1E70",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_285",
+    "registrationCode": "EUPH-26-E3D476-S1",
+    "delegateFullName": "SharveshG",
+    "mobileNumber": "8148647128",
+    "college": "Simats Engineering",
+    "passCode": "EUPH-26-E3D476",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_286",
+    "registrationCode": "EUPH-26-056AEF-S1",
+    "delegateFullName": "JAGANATHAN T",
+    "mobileNumber": "8925226718",
+    "college": "saveetha university",
+    "passCode": "EUPH-26-056AEF",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_287",
+    "registrationCode": "EUPH-26-F8B190-S1",
+    "delegateFullName": "Agastin Raju A",
+    "mobileNumber": "7904463725",
+    "college": "Mepco Shelnk Engineering College",
+    "passCode": "EUPH-26-F8B190",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_288",
+    "registrationCode": "EUPH-26-E8A048-S1",
+    "delegateFullName": "Deeparajan A",
+    "mobileNumber": "8903174099",
+    "college": "mepco schlenk engineering college",
+    "passCode": "EUPH-26-E8A048",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_289",
+    "registrationCode": "EUPH-26-6D0DD8-S1",
+    "delegateFullName": "Jayavishnu Gd",
+    "mobileNumber": "7449153365",
+    "college": "Manikam Ramaswami College of Arts and Science",
+    "passCode": "EUPH-26-6D0DD8",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_290",
+    "registrationCode": "EUPH-26-1CC183-S1",
+    "delegateFullName": "Gokul Ganeshan",
+    "mobileNumber": "7604845242",
+    "college": "Manikam Ramaswami College of arts and science",
+    "passCode": "EUPH-26-1CC183",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_291",
+    "registrationCode": "EUPH-26-76ABDB-S1",
+    "delegateFullName": "Joshitha Srinivasan",
+    "mobileNumber": "9842478068",
+    "college": "Manikam Ramaswami College of arts and science",
+    "passCode": "EUPH-26-76ABDB",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_292",
+    "registrationCode": "EUPH-26-C55CA0-S1",
+    "delegateFullName": "Swetha Sri J",
+    "mobileNumber": "7904753996",
+    "college": "Manikam Ramaswami College of Arts and Science",
+    "passCode": "EUPH-26-C55CA0",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_293",
+    "registrationCode": "EUPH-26-C56892-S1",
+    "delegateFullName": "vishnu kumar",
+    "mobileNumber": "6384945833",
+    "college": "Manikam Ramaswamy College of arts and science",
+    "passCode": "EUPH-26-C56892",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_294",
+    "registrationCode": "EUPH-26-177C24-S1",
+    "delegateFullName": "SANJAY KUMAR",
+    "mobileNumber": "9655984216",
+    "college": "MANIKAM RAMASWAMI COLLEGE OF ARTS AND SCIENCE",
+    "passCode": "EUPH-26-177C24",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_295",
+    "registrationCode": "EUPH-26-4BC9AB-S1",
+    "delegateFullName": "NAVIN BALAJI.M",
+    "mobileNumber": "8438029215",
+    "college": "Velammal College of Engineering and Technology",
+    "passCode": "EUPH-26-4BC9AB",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_296",
+    "registrationCode": "EUPH-26-2F37D1-S1",
+    "delegateFullName": "Dinesh Prabhu R",
+    "mobileNumber": "7810018273",
+    "college": "VCET",
+    "passCode": "EUPH-26-2F37D1",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_297",
+    "registrationCode": "EUPH-26-B18E6B-S1",
+    "delegateFullName": "STEPHEN ABRAHAM A",
+    "mobileNumber": "6385644635",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-B18E6B",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_298",
+    "registrationCode": "EUPH-26-24B113-S1",
+    "delegateFullName": "Viswaksena M",
+    "mobileNumber": "8610954697",
+    "college": "Velammal college of engineering and technology",
+    "passCode": "EUPH-26-24B113",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_299",
+    "registrationCode": "EUPH-26-367E7A-S1",
+    "delegateFullName": "C.B.Devaeshar",
+    "mobileNumber": "6380735733",
+    "college": "Velammal college of engineering and technology",
+    "passCode": "EUPH-26-367E7A",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_300",
+    "registrationCode": "EUPH-26-96236B-S1",
+    "delegateFullName": "Mohamed Farhaan Ali M",
+    "mobileNumber": "9486081891",
+    "college": "AAA COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "passCode": "EUPH-26-96236B",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_301",
+    "registrationCode": "EUPH-26-4532FD-S1",
+    "delegateFullName": "Sivanisri",
+    "mobileNumber": "8778801033",
+    "college": "Thiagaraja college of engineering",
+    "passCode": "EUPH-26-4532FD",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_302",
+    "registrationCode": "EUPH-26-F213B0-S1",
+    "delegateFullName": "Lakshmi Priya",
+    "mobileNumber": "9182480969",
+    "college": "Kamaraj college of engineering and technology",
+    "passCode": "EUPH-26-F213B0",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_303",
+    "registrationCode": "EUPH-26-948F01-S1",
+    "delegateFullName": "Nandhana k",
+    "mobileNumber": "8778585438",
+    "college": "Manikam Ramaswami College of Arts and Science",
+    "passCode": "EUPH-26-948F01",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_304",
+    "registrationCode": "EUPH-26-465DCA-S1",
+    "delegateFullName": "Guna Nagaraj",
+    "mobileNumber": "9443831805",
+    "college": "Manikam Ramaswami College of arts and science",
+    "passCode": "EUPH-26-465DCA",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_305",
+    "registrationCode": "EUPH-26-8C4ABD-S1",
+    "delegateFullName": "Maheedhara B T S",
+    "mobileNumber": "7824953764",
+    "college": "Manikam Ramaswami College of Arts and Science",
+    "passCode": "EUPH-26-8C4ABD",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_306",
+    "registrationCode": "EUPH-26-4658F2-S1",
+    "delegateFullName": "Yogitha J",
+    "mobileNumber": "9514148789",
+    "college": "Manikam Ramaswami College of Arts and Science",
+    "passCode": "EUPH-26-4658F2",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_307",
+    "registrationCode": "EUPH-26-75646E-S1",
+    "delegateFullName": "Kishanthini",
+    "mobileNumber": "6380604170",
+    "college": "Thiagarajar College of Engineering",
+    "passCode": "EUPH-26-75646E",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_308",
+    "registrationCode": "EUPH-26-152E01-S1",
+    "delegateFullName": "Nageswari J",
+    "mobileNumber": "8678980454",
+    "college": "Manikam Ramaswami College of Arts and Science",
+    "passCode": "EUPH-26-152E01",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_309",
+    "registrationCode": "EUPH-26-577183-S1",
+    "delegateFullName": "Deekshitha P K",
+    "mobileNumber": "9363673744",
+    "college": "Manikan ramaswamy college of arts and science",
+    "passCode": "EUPH-26-577183",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_310",
+    "registrationCode": "EUPH-26-DC9EBC-S1",
+    "delegateFullName": "Gayathri S",
+    "mobileNumber": "9361560440",
+    "college": "Kamaraj college of engineering and technology",
+    "passCode": "EUPH-26-DC9EBC",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_311",
+    "registrationCode": "EUPH-26-48F756-S1",
+    "delegateFullName": "Karthik Hari vasan",
+    "mobileNumber": "8270624856",
+    "college": "Manikam Ramasamy College of Arts and Science",
+    "passCode": "EUPH-26-48F756",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_312",
+    "registrationCode": "EUPH-26-3F436E-S1",
+    "delegateFullName": "Santhosh Santhosh",
+    "mobileNumber": "9345680980",
+    "college": "ERODE SENGUNTHAR ENGINEERING COLLEGE",
+    "passCode": "EUPH-26-3F436E",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_313",
+    "registrationCode": "EUPH-26-6F6756-S1",
+    "delegateFullName": "MITHRAJA K",
+    "mobileNumber": "7305661881",
+    "college": "Thiagarajar College of Engineering",
+    "passCode": "EUPH-26-6F6756",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_314",
+    "registrationCode": "EUPH-26-BF8A07-S1",
+    "delegateFullName": "Sona",
+    "mobileNumber": "9345673620",
+    "college": "Thiyagarajar College Of Engineering",
+    "passCode": "EUPH-26-BF8A07",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_315",
+    "registrationCode": "EUPH-26-03E43C-S1",
+    "delegateFullName": "Sandhiya M",
+    "mobileNumber": "6385689399",
+    "college": "Manikam Ramaswamy College of Arts and science",
+    "passCode": "EUPH-26-03E43C",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_316",
+    "registrationCode": "EUPH-26-4044D9-S1",
+    "delegateFullName": "Yohavarshini R C",
+    "mobileNumber": "8940187180",
+    "college": "Manikam ramaswami college of arts and science",
+    "passCode": "EUPH-26-4044D9",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_317",
+    "registrationCode": "EUPH-26-FB7268-S1",
+    "delegateFullName": "Nivasri P",
+    "mobileNumber": "8838344491",
+    "college": "Manikam ramasami college of arts and science",
+    "passCode": "EUPH-26-FB7268",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_318",
+    "registrationCode": "EUPH-26-A9B9B2-S1",
+    "delegateFullName": "Karthikeyan M",
+    "mobileNumber": "8870078819",
+    "college": "Mepco Schlenk Engineering College",
+    "passCode": "EUPH-26-A9B9B2",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_319",
+    "registrationCode": "EUPH-26-A8DBE8-S1",
+    "delegateFullName": "Sandhiya R",
+    "mobileNumber": "7397329068",
+    "college": "st joseph's institute of technology",
+    "passCode": "EUPH-26-A8DBE8",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_320",
+    "registrationCode": "EUPH-26-52900F-S1",
+    "delegateFullName": "A. S Sadana",
+    "mobileNumber": "6381107229",
+    "college": "St Joseph's institute of technology",
+    "passCode": "EUPH-26-52900F",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_321",
+    "registrationCode": "EUPH-26-B9EC0C-S1",
+    "delegateFullName": "Sharmila S",
+    "mobileNumber": "6380357750",
+    "college": "Kamaraj College of Engineering and Technology",
+    "passCode": "EUPH-26-B9EC0C",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_322",
+    "registrationCode": "EUPH-26-D87BC7-S1",
+    "delegateFullName": "Nithish Kumar V",
+    "mobileNumber": "7558100232",
+    "college": "Velammal college of engineering and technology",
+    "passCode": "EUPH-26-D87BC7",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_323",
+    "registrationCode": "EUPH-26-E034C7-S1",
+    "delegateFullName": "Siva Sankar",
+    "mobileNumber": "9361512208",
+    "college": "Velammal college of engineering and technology",
+    "passCode": "EUPH-26-E034C7",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_324",
+    "registrationCode": "EUPH-26-EFFA0D-S1",
+    "delegateFullName": "santhosh raam",
+    "mobileNumber": "7418541238",
+    "college": "velammal college of engineering and technology",
+    "passCode": "EUPH-26-EFFA0D",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_325",
+    "registrationCode": "EUPH-26-B270B6-S1",
+    "delegateFullName": "Santhosh S",
+    "mobileNumber": "6379482830",
+    "college": "Velammal College of Engineering and Technology",
+    "passCode": "EUPH-26-B270B6",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_326",
+    "registrationCode": "EUPH-26-0F7372-S1",
+    "delegateFullName": "Santhosh J",
+    "mobileNumber": "7548883759",
+    "college": "Velammal college of engineering and technology",
+    "passCode": "EUPH-26-0F7372",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_327",
+    "registrationCode": "EUPH-26-E29815-S1",
+    "delegateFullName": "Surya Prakash",
+    "mobileNumber": "7868888973",
+    "college": "Mepco Schlenk Engineering College",
+    "passCode": "EUPH-26-E29815",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_328",
+    "registrationCode": "EUPH-26-0B789A-S1",
+    "delegateFullName": "Prabanzan A",
+    "mobileNumber": "9344393160",
+    "college": "Manikam Ramaswami College of Arts and Science",
+    "passCode": "EUPH-26-0B789A",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_329",
+    "registrationCode": "EUPH-26-04E99F-S1",
+    "delegateFullName": "Adharsh S",
+    "mobileNumber": "8056186652",
+    "college": "Nandha Engineering College",
+    "passCode": "EUPH-26-04E99F",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_330",
+    "registrationCode": "EUPH-26-658BBE-S1",
+    "delegateFullName": "Priyadharshini.J",
+    "mobileNumber": "9087637123",
+    "college": "Manikam Ramaswami College of arts and science",
+    "passCode": "EUPH-26-658BBE",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_331",
+    "registrationCode": "EUPH-26-8E103F-S1",
+    "delegateFullName": "Nihal Amreen",
+    "mobileNumber": "8807694843",
+    "college": "RAMCO INSTITUTE OF TECHNOLOGY",
+    "passCode": "EUPH-26-8E103F",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_332",
+    "registrationCode": "EUPH-26-361C33-S1",
+    "delegateFullName": "LAJASHRI NAIDU M K",
+    "mobileNumber": "8870038344",
+    "college": "Ramco institute of technology",
+    "passCode": "EUPH-26-361C33",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_333",
+    "registrationCode": "EUPH-26-89DF3A-S1",
+    "delegateFullName": "Harini K",
+    "mobileNumber": "8056453271",
+    "college": "Ramco Institute Of Technology",
+    "passCode": "EUPH-26-89DF3A",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_334",
+    "registrationCode": "EUPH-26-D234DC-S1",
+    "delegateFullName": "Tharsini K",
+    "mobileNumber": "9943930283",
+    "college": "RAMCO INSTITUTE OF TECHNOLOGY",
+    "passCode": "EUPH-26-D234DC",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_335",
+    "registrationCode": "EUPH-26-9A2D7C-S1",
+    "delegateFullName": "Muthu Vel",
+    "mobileNumber": "9363445603",
+    "college": "Mepco Schlenk Engineering College",
+    "passCode": "EUPH-26-9A2D7C",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_336",
+    "registrationCode": "EUPH-26-B1CD4C-S1",
+    "delegateFullName": "C TEJASWINI",
+    "mobileNumber": "7702570548",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-B1CD4C",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_337",
+    "registrationCode": "EUPH-26-FAE177-S1",
+    "delegateFullName": "Harini P",
+    "mobileNumber": "7558129581",
+    "college": "Velammal college of engineering and technology",
+    "passCode": "EUPH-26-FAE177",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_338",
+    "registrationCode": "EUPH-26-9DF2DC-S1",
+    "delegateFullName": "NIRAGANTI GOWTHAM 2024-CSE",
+    "mobileNumber": "9573870041",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-9DF2DC",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_339",
+    "registrationCode": "EUPH-26-68A7B3-S1",
+    "delegateFullName": "NIMMALA SRIMANNARAYANA 2024-CSE",
+    "mobileNumber": "7997264747",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-68A7B3",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_340",
+    "registrationCode": "EUPH-26-DA4444-S1",
+    "delegateFullName": "N ANKITHA 2024-CSE",
+    "mobileNumber": "9347300723",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-DA4444",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_341",
+    "registrationCode": "EUPH-26-DF5CF8-S1",
+    "delegateFullName": "ARIGELA VENKATA SUSHANTH 2024-CSE",
+    "mobileNumber": "9014989128",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-DF5CF8",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_342",
+    "registrationCode": "EUPH-26-EBED1A-S1",
+    "delegateFullName": "Lakshmi Prabha S",
+    "mobileNumber": "9345708923",
+    "college": "Kamaraj College of Engineering and Technology",
+    "passCode": "EUPH-26-EBED1A",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_343",
+    "registrationCode": "EUPH-26-BC56FA-S1",
+    "delegateFullName": "Guru Prasath",
+    "mobileNumber": "6374572939",
+    "college": "Erode sengunthar engineering college",
+    "passCode": "EUPH-26-BC56FA",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_344",
+    "registrationCode": "EUPH-26-45323B-S1",
+    "delegateFullName": "Ramya",
+    "mobileNumber": "7305204885",
+    "college": "Erode Sengunthar Engineering college",
+    "passCode": "EUPH-26-45323B",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_345",
+    "registrationCode": "EUPH-26-CCC7EA-S1",
+    "delegateFullName": "Pavatharini S",
+    "mobileNumber": "8825529263",
+    "college": "Erode Sengunthar Engineering College",
+    "passCode": "EUPH-26-CCC7EA",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_346",
+    "registrationCode": "EUPH-26-B00E85-S1",
+    "delegateFullName": "Mohammed Ansar A",
+    "mobileNumber": "9500502199",
+    "college": "Erode Sengunthar Engineering College",
+    "passCode": "EUPH-26-B00E85",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_347",
+    "registrationCode": "EUPH-26-25368D-S1",
+    "delegateFullName": "Sharvani K",
+    "mobileNumber": "8248718734",
+    "college": "Erode Sengunthar Engineering College",
+    "passCode": "EUPH-26-25368D",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_348",
+    "registrationCode": "EUPH-26-787DEE-S1",
+    "delegateFullName": "Yuvan Mathesh M",
+    "mobileNumber": "7904555314",
+    "college": "Erode Sengunthar Engineering College",
+    "passCode": "EUPH-26-787DEE",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_349",
+    "registrationCode": "EUPH-26-1B8F6B-S1",
+    "delegateFullName": "Harini A",
+    "mobileNumber": "9940639014",
+    "college": "Kamaraj college of engineering and technology",
+    "passCode": "EUPH-26-1B8F6B",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_350",
+    "registrationCode": "EUPH-26-7782E4-S1",
+    "delegateFullName": "Lakshhija",
+    "mobileNumber": "9578649695",
+    "college": "Kamaraj college of engineering and technology",
+    "passCode": "EUPH-26-7782E4",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_351",
+    "registrationCode": "EUPH-26-D2382F-S1",
+    "delegateFullName": "Dhanalakshmi kuthalam",
+    "mobileNumber": "8925493972",
+    "college": "Kalasalingam university research and education",
+    "passCode": "EUPH-26-D2382F",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_352",
+    "registrationCode": "EUPH-26-09CA51-S1",
+    "delegateFullName": "MOHAMED Risal",
+    "mobileNumber": "8270601359",
+    "college": "AAA college of engineering and technology",
+    "passCode": "EUPH-26-09CA51",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_353",
+    "registrationCode": "EUPH-26-7D29DF-S1",
+    "delegateFullName": "G Naresh kumar",
+    "mobileNumber": "9080492144",
+    "college": "AAA college of engineering and technology",
+    "passCode": "EUPH-26-7D29DF",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_354",
+    "registrationCode": "EUPH-26-5CF792-S1",
+    "delegateFullName": "AMADASANI HARI",
+    "mobileNumber": "7989519636",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-5CF792",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_355",
+    "registrationCode": "EUPH-26-0DB478-S1",
+    "delegateFullName": "Rithanya R R",
+    "mobileNumber": "8148634776",
+    "college": "Velammal college engineering and technology",
+    "passCode": "EUPH-26-0DB478",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_356",
+    "registrationCode": "EUPH-26-BD7C1B-S1",
+    "delegateFullName": "THANNEERU SANTHOSH 2024-ECE",
+    "mobileNumber": "9441246159",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-BD7C1B",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_357",
+    "registrationCode": "EUPH-26-DAF3FA-S1",
+    "delegateFullName": "VEERAMREDDY AJAY KUMAR REDDY 2024-CSE",
+    "mobileNumber": "6300211534",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-DAF3FA",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_358",
+    "registrationCode": "EUPH-26-9727E9-S1",
+    "delegateFullName": "INDUKURI NAVEEN VARMA 2024-CSE",
+    "mobileNumber": "8143707339",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-9727E9",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_359",
+    "registrationCode": "EUPH-26-7BCE6D-S1",
+    "delegateFullName": "NAVUDU OMKAR 2024-CSE",
+    "mobileNumber": "7013694303",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-7BCE6D",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_360",
+    "registrationCode": "EUPH-26-073002-S1",
+    "delegateFullName": "VETRI AJAY R",
+    "mobileNumber": "9342350629",
+    "college": "Ramco Institute of technology",
+    "passCode": "EUPH-26-073002",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_361",
+    "registrationCode": "EUPH-26-05F33B-S1",
+    "delegateFullName": "HARI PRASANTH K",
+    "mobileNumber": "9360346414",
+    "college": "Ramco Institute of Technology",
+    "passCode": "EUPH-26-05F33B",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_362",
+    "registrationCode": "EUPH-26-E286AE-S1",
+    "delegateFullName": "Dhivya Dharshini.C",
+    "mobileNumber": "6383481198",
+    "college": "Thiagarajar College of Engineering",
+    "passCode": "EUPH-26-E286AE",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_363",
+    "registrationCode": "EUPH-26-D9642D-S1",
+    "delegateFullName": "AASHIK H",
+    "mobileNumber": "9943313839",
+    "college": "Thiagarajar college of engineering , Madurai.",
+    "passCode": "EUPH-26-D9642D",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_364",
+    "registrationCode": "EUPH-26-9C269F-S1",
+    "delegateFullName": "Roopan Balaji",
+    "mobileNumber": "9344845680",
+    "college": "Mepco Schlenk Engineering College",
+    "passCode": "EUPH-26-9C269F",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_365",
+    "registrationCode": "EUPH-26-73D6FE-S1",
+    "delegateFullName": "YERRA RANGAPPA NAIDU 2024-CSE",
+    "mobileNumber": "9908223197",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-73D6FE",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_366",
+    "registrationCode": "EUPH-26-CD40B7-S1",
+    "delegateFullName": "DONDETI VIJAYA BHASKARA REDDY 2024-CSE",
+    "mobileNumber": "9014803434",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-CD40B7",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_367",
+    "registrationCode": "EUPH-26-F53295-S1",
+    "delegateFullName": "SHAHANA CHIDAMBARAKUMAR",
+    "mobileNumber": "8248520340",
+    "college": "Thiagarajar college of engineering",
+    "passCode": "EUPH-26-F53295",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_368",
+    "registrationCode": "EUPH-26-817128-S1",
+    "delegateFullName": "GONTHI VINAY VENKATA MANI HARI 2024-CSE",
+    "mobileNumber": "6281462619",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-817128",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_369",
+    "registrationCode": "EUPH-26-D02E36-S1",
+    "delegateFullName": "NARAKKAGARI NIRANJAN REDDY 2024-CSE",
+    "mobileNumber": "8688057693",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-D02E36",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_370",
+    "registrationCode": "EUPH-26-405602-S1",
+    "delegateFullName": "SABARINATHAN G",
+    "mobileNumber": "9894244452",
+    "college": "Ramco Institute of technology",
+    "passCode": "EUPH-26-405602",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_371",
+    "registrationCode": "EUPH-26-FB480E-S1",
+    "delegateFullName": "SHARVESH S",
+    "mobileNumber": "9566573685",
+    "college": "Ramco Institute of Technology",
+    "passCode": "EUPH-26-FB480E",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_372",
+    "registrationCode": "EUPH-26-DBB2F1-S1",
+    "delegateFullName": "SHRIMAN VETTRI VELAVAA K",
+    "mobileNumber": "8300832260",
+    "college": "Ramco Institute of Technology",
+    "passCode": "EUPH-26-DBB2F1",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_373",
+    "registrationCode": "EUPH-26-650A25-S1",
+    "delegateFullName": "Nandhini A T",
+    "mobileNumber": "9345998309",
+    "college": "Velammal College of engineering and technology",
+    "passCode": "EUPH-26-650A25",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_374",
+    "registrationCode": "EUPH-26-F6DE6C-S1",
+    "delegateFullName": "KAMALESH S",
+    "mobileNumber": "7598645956",
+    "college": "Thiagarajar college of engineering",
+    "passCode": "EUPH-26-F6DE6C",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_375",
+    "registrationCode": "EUPH-26-15BFB8-S1",
+    "delegateFullName": "Vikas",
+    "mobileNumber": "6383105975",
+    "college": "Velammal College of Engineering and Technology",
+    "passCode": "EUPH-26-15BFB8",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_376",
+    "registrationCode": "EUPH-26-DFD344-S1",
+    "delegateFullName": "Rikkala Uday Kiran Reddy",
+    "mobileNumber": "9390612110",
+    "college": "NIAT",
+    "passCode": "EUPH-26-DFD344",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_377",
+    "registrationCode": "EUPH-26-C91467-S1",
+    "delegateFullName": "R.S Kaushik",
+    "mobileNumber": "9360157154",
+    "college": "Velammal college of engineering and technology",
+    "passCode": "EUPH-26-C91467",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_378",
+    "registrationCode": "EUPH-26-AAD7BC-S1",
+    "delegateFullName": "Thatshana",
+    "mobileNumber": "9363655676",
+    "college": "Srm madurai college for engineering and technology",
+    "passCode": "EUPH-26-AAD7BC",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_379",
+    "registrationCode": "EUPH-26-53F94C-S1",
+    "delegateFullName": "Kathir Murugan P",
+    "mobileNumber": "8438429112",
+    "college": "Ramco Institute of Technology",
+    "passCode": "EUPH-26-53F94C",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_380",
+    "registrationCode": "EUPH-26-C77E25-S1",
+    "delegateFullName": "Vikash A R",
+    "mobileNumber": "7200026755",
+    "college": "SRM Madurai College for engineering and technology",
+    "passCode": "EUPH-26-C77E25",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_381",
+    "registrationCode": "EUPH-26-C4ADE4-S1",
+    "delegateFullName": "Shri Ganapathi V.R",
+    "mobileNumber": "9655516887",
+    "college": "SRM MADURAI COLLEGE FOR ENGINEERING AND TECHNOLOGY",
+    "passCode": "EUPH-26-C4ADE4",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_382",
+    "registrationCode": "EUPH-26-F0B62E-S1",
+    "delegateFullName": "Veeresh Aarya V",
+    "mobileNumber": "9363771927",
+    "college": "Srm Madurai college for engineering and technology",
+    "passCode": "EUPH-26-F0B62E",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_383",
+    "registrationCode": "EUPH-26-D0792E-S1",
+    "delegateFullName": "SEEMAN G",
+    "mobileNumber": "7810098412",
+    "college": "Ramco Institute of Technology",
+    "passCode": "EUPH-26-D0792E",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_384",
+    "registrationCode": "EUPH-26-F77885-S1",
+    "delegateFullName": "THABSIRA FATHIMA M",
+    "mobileNumber": "6374400407",
+    "college": "Ramco Institute of technology",
+    "passCode": "EUPH-26-F77885",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_385",
+    "registrationCode": "EUPH-26-D9BA0D-S1",
+    "delegateFullName": "DIVYA MOORTHY",
+    "mobileNumber": "8807815729",
+    "college": "velammal college of engineering and technology",
+    "passCode": "EUPH-26-D9BA0D",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_386",
+    "registrationCode": "EUPH-26-CA2176-S1",
+    "delegateFullName": "MUTHUMARI M",
+    "mobileNumber": "9342982442",
+    "college": "Ramco Institute of Technology",
+    "passCode": "EUPH-26-CA2176",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_387",
+    "registrationCode": "EUPH-26-BBACB6-S1",
+    "delegateFullName": "ROHINI P",
+    "mobileNumber": "9789165375",
+    "college": "Ramco Institute of Technology",
+    "passCode": "EUPH-26-BBACB6",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_388",
+    "registrationCode": "EUPH-26-421390-S1",
+    "delegateFullName": "CHEGUVERA V S",
+    "mobileNumber": "7010332360",
+    "college": "Ramco Institute of technology Rajapalayam",
+    "passCode": "EUPH-26-421390",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_389",
+    "registrationCode": "EUPH-26-BB721A-S1",
+    "delegateFullName": "SAJINA J",
+    "mobileNumber": "7305492012",
+    "college": "Ramco institute of technology Rajapalayam",
+    "passCode": "EUPH-26-BB721A",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_390",
+    "registrationCode": "EUPH-26-A91116-S1",
+    "delegateFullName": "IRFANA BARVEEN M",
+    "mobileNumber": "9342216362",
+    "college": "Ramco Institute of technology Rajapalayam",
+    "passCode": "EUPH-26-A91116",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_391",
+    "registrationCode": "EUPH-26-FCCA3D-S1",
+    "delegateFullName": "VIJAYA DHARSHINI K",
+    "mobileNumber": "9500726202",
+    "college": "Ramco Institute of technology Rajapalayam",
+    "passCode": "EUPH-26-FCCA3D",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_392",
+    "registrationCode": "EUPH-26-C50FCF-S1",
+    "delegateFullName": "BATTINI SAI KUMAR 2025-CSE",
+    "mobileNumber": "8309836258",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-C50FCF",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_393",
+    "registrationCode": "EUPH-26-D3C514-S1",
+    "delegateFullName": "Majeetha Begum",
+    "mobileNumber": "8015161690",
+    "college": "AAA College of Engineering and Technology",
+    "passCode": "EUPH-26-D3C514",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_394",
+    "registrationCode": "EUPH-26-2BDB40-S1",
+    "delegateFullName": "Eesha R.S",
+    "mobileNumber": "8368308225",
+    "college": "velammal college of engineering and technology",
+    "passCode": "EUPH-26-2BDB40",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_395",
+    "registrationCode": "EUPH-26-9A92FD-S1",
+    "delegateFullName": "Rehana Sitthika",
+    "mobileNumber": "9790980218",
+    "college": "Velammal college of engineering and technology",
+    "passCode": "EUPH-26-9A92FD",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_396",
+    "registrationCode": "EUPH-26-583050-S1",
+    "delegateFullName": "V. Maha Teja reddy",
+    "mobileNumber": "9550431164",
+    "college": "NIAT",
+    "passCode": "EUPH-26-583050",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_397",
+    "registrationCode": "EUPH-26-DC5D0B-S1",
+    "delegateFullName": "Mahalakshmi S",
+    "mobileNumber": "9943812569",
+    "college": "AAA college of engineering and technology",
+    "passCode": "EUPH-26-DC5D0B",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_398",
+    "registrationCode": "EUPH-26-99B457-S1",
+    "delegateFullName": "Joyce",
+    "mobileNumber": "7339123703",
+    "college": "AAA College of Engineering and Technology",
+    "passCode": "EUPH-26-99B457",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_399",
+    "registrationCode": "EUPH-26-BB4083-S1",
+    "delegateFullName": "NIKITHA M",
+    "mobileNumber": "8056456346",
+    "college": "AAA COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "passCode": "EUPH-26-BB4083",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_400",
+    "registrationCode": "EUPH-26-D6B088-S1",
+    "delegateFullName": "Kamatchi R",
+    "mobileNumber": "8754834382",
+    "college": "AAA college of engineering and technology",
+    "passCode": "EUPH-26-D6B088",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_401",
+    "registrationCode": "EUPH-26-FA981B-S1",
+    "delegateFullName": "Nandika Senit B G",
+    "mobileNumber": "9080422242",
+    "college": "Velammal College of Engineering and Technology",
+    "passCode": "EUPH-26-FA981B",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_402",
+    "registrationCode": "EUPH-26-0D55F8-S1",
+    "delegateFullName": "Iniya.N",
+    "mobileNumber": "6383413981",
+    "college": "Velammal college of engineering and technology",
+    "passCode": "EUPH-26-0D55F8",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_403",
+    "registrationCode": "EUPH-26-80A5B4-S1",
+    "delegateFullName": "Dhanalakshmi M",
+    "mobileNumber": "7010501012",
+    "college": "Mangayarkarasi college of Engineering",
+    "passCode": "EUPH-26-80A5B4",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_404",
+    "registrationCode": "EUPH-26-DC2AA2-S1",
+    "delegateFullName": "Meenakshi Subramanian",
+    "mobileNumber": "8940722111",
+    "college": "Mangayarkarasi College of engineering",
+    "passCode": "EUPH-26-DC2AA2",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_405",
+    "registrationCode": "EUPH-26-9140B9-S1",
+    "delegateFullName": "Aishwarya",
+    "mobileNumber": "9962664751",
+    "college": "Mangayarkarasi college of Engineering",
+    "passCode": "EUPH-26-9140B9",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_406",
+    "registrationCode": "EUPH-26-A1EE6A-S1",
+    "delegateFullName": "Kavya",
+    "mobileNumber": "9384628816",
+    "college": "Dr Mahalingam college of engineering and technology",
+    "passCode": "EUPH-26-A1EE6A",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_407",
+    "registrationCode": "EUPH-26-1554D5-S1",
+    "delegateFullName": "SANTHAANA VIGNESH G S G",
+    "mobileNumber": "9751469437",
+    "college": "RAMCO INSTITUTE OF TECHNOLOGY",
+    "passCode": "EUPH-26-1554D5",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_408",
+    "registrationCode": "EUPH-26-D4717F-S1",
+    "delegateFullName": "Jeyaprakash M",
+    "mobileNumber": "6379151727",
+    "college": "Ramco institute of technology",
+    "passCode": "EUPH-26-D4717F",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_409",
+    "registrationCode": "EUPH-26-5D5EC5-S1",
+    "delegateFullName": "LALIT KUMAR PANDIT 2025-CSE",
+    "mobileNumber": "7781876681",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-5D5EC5",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_410",
+    "registrationCode": "EUPH-26-A25033-S1",
+    "delegateFullName": "Reguram",
+    "mobileNumber": "9363501815",
+    "college": "Ramco Institute of Technology",
+    "passCode": "EUPH-26-A25033",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_411",
+    "registrationCode": "EUPH-26-62B817-S1",
+    "delegateFullName": "Siva G",
+    "mobileNumber": "9787594116",
+    "college": "Ramco institute of technology",
+    "passCode": "EUPH-26-62B817",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_412",
+    "registrationCode": "EUPH-26-CD8BC4-S1",
+    "delegateFullName": "Kavin Boobesh",
+    "mobileNumber": "6374703854",
+    "college": "Ramco institute of technology",
+    "passCode": "EUPH-26-CD8BC4",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_413",
+    "registrationCode": "EUPH-26-590E69-S1",
+    "delegateFullName": "KATTA NITISH KUMAR 2025-CSE",
+    "mobileNumber": "8008069997",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-590E69",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_414",
+    "registrationCode": "EUPH-26-450C16-S1",
+    "delegateFullName": "BANDI CHAKRADHAR REDDY 2025-CSE",
+    "mobileNumber": "9154073476",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-450C16",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_415",
+    "registrationCode": "EUPH-26-3755B5-S1",
+    "delegateFullName": "DONGALA VENKATA HARISH REDDY 2025-CSE",
+    "mobileNumber": "9963379469",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-3755B5",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_416",
+    "registrationCode": "EUPH-26-9D7116-S1",
+    "delegateFullName": "LAKSHAY BHOMIA 2025-CSE",
+    "mobileNumber": "7300363505",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-9D7116",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_417",
+    "registrationCode": "EUPH-26-5392CB-S1",
+    "delegateFullName": "GOTTIPATI TEJA CHANDRA SUBHASH 2025-CSE",
+    "mobileNumber": "7416736719",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-5392CB",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_418",
+    "registrationCode": "EUPH-26-12C04A-S1",
+    "delegateFullName": "AYUSH KUMAR SATYAM 2025-CSE",
+    "mobileNumber": "7004312624",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-12C04A",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_419",
+    "registrationCode": "EUPH-26-C88FAB-S1",
+    "delegateFullName": "Blessy Joy",
+    "mobileNumber": "8610593567",
+    "college": "St.joseph's institute of technology",
+    "passCode": "EUPH-26-C88FAB",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_420",
+    "registrationCode": "EUPH-26-E47431-S1",
+    "delegateFullName": "RALLACHENI VEN RAVI CHANDRA 2025-CSE",
+    "mobileNumber": "9030527428",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-E47431",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_421",
+    "registrationCode": "EUPH-26-967F68-S1",
+    "delegateFullName": "Bala subbramanian .I",
+    "mobileNumber": "6381265149",
+    "college": "Ramco Institute of Technology",
+    "passCode": "EUPH-26-967F68",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_422",
+    "registrationCode": "EUPH-26-CE2DB2-S1",
+    "delegateFullName": "Muthubalamurugan",
+    "mobileNumber": "6369098806",
+    "college": "Ramco Institute of Technology",
+    "passCode": "EUPH-26-CE2DB2",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_423",
+    "registrationCode": "EUPH-26-EC38AE-S1",
+    "delegateFullName": "Nanthakumar.T",
+    "mobileNumber": "9360947750",
+    "college": "Ramco Institute of Technology",
+    "passCode": "EUPH-26-EC38AE",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_424",
+    "registrationCode": "EUPH-26-69923F-S1",
+    "delegateFullName": "MUSHI DHARUN A",
+    "mobileNumber": "8148531402",
+    "college": "Ramco Institute of Technology",
+    "passCode": "EUPH-26-69923F",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_425",
+    "registrationCode": "EUPH-26-68AF01-S1",
+    "delegateFullName": "Mukesh Kumaran M",
+    "mobileNumber": "8778503021",
+    "college": "Ramco Institute of technology",
+    "passCode": "EUPH-26-68AF01",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_426",
+    "registrationCode": "EUPH-26-27821F-S1",
+    "delegateFullName": "Trimaan .V",
+    "mobileNumber": "6380879263",
+    "college": "Dr.Mahalingam college of engineering and technology",
+    "passCode": "EUPH-26-27821F",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_427",
+    "registrationCode": "EUPH-26-B62714-S1",
+    "delegateFullName": "Somarapu Karthik",
+    "mobileNumber": "8688261799",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-B62714",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_428",
+    "registrationCode": "EUPH-26-A9ACA0-S1",
+    "delegateFullName": "KISHORE C",
+    "mobileNumber": "9361777169",
+    "college": "DR MAHALINGAM COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "passCode": "EUPH-26-A9ACA0",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_429",
+    "registrationCode": "EUPH-26-41DE4C-S1",
+    "delegateFullName": "K SHAHUL HAMEED",
+    "mobileNumber": "8248944343",
+    "college": "Dr Mahalingam college of engineering and technology",
+    "passCode": "EUPH-26-41DE4C",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_430",
+    "registrationCode": "EUPH-26-EA9931-S1",
+    "delegateFullName": "YUGESHKUMAR M",
+    "mobileNumber": "9363731046",
+    "college": "DR MAHALINGAM COLLEGE OF ENGINEERING AND TECHNOLOGY",
+    "passCode": "EUPH-26-EA9931",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_431",
+    "registrationCode": "EUPH-26-3256DE-S1",
+    "delegateFullName": "GATTU BHAVANA 2024-IT",
+    "mobileNumber": "6301915154",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-3256DE",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_432",
+    "registrationCode": "EUPH-26-3103BD-S1",
+    "delegateFullName": "K GNAN JASHWANTH",
+    "mobileNumber": "8247070889",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-3103BD",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_433",
+    "registrationCode": "EUPH-26-16D547-S1",
+    "delegateFullName": "BORRU PALLAVI 2024-CSE",
+    "mobileNumber": "9502549788",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-16D547",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_434",
+    "registrationCode": "EUPH-26-5FEBB9-S1",
+    "delegateFullName": "TODETI CHAITANYA 2024-CSE",
+    "mobileNumber": "6309865995",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-5FEBB9",
+    "attendance": "NOT MARKED"
+  },
+  {
+    "id": "student_435",
+    "registrationCode": "EUPH-26-6BD6B0-S1",
+    "delegateFullName": "GONUGUNTLA JEEVAN SAI",
+    "mobileNumber": "9063550635",
+    "college": "Kalasalingam Academy of Research and Education",
+    "passCode": "EUPH-26-6BD6B0",
+    "attendance": "NOT MARKED"
+  }
+]
