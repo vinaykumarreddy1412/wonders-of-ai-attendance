@@ -52,8 +52,18 @@ function Router() {
   const navigate = (to) => {
     const valid = normalizeRoute(to);
     setCurrentRoute(valid);
-    window.location.hash = valid;
-    window.scrollTo({ top: 0, behavior: 'smooth' });
+    if (typeof window !== 'undefined') {
+      if (window.history && window.history.replaceState && window.location.pathname !== '/') {
+        try {
+          window.history.replaceState(null, '', '/#' + valid);
+        } catch (e) {
+          window.location.hash = valid;
+        }
+      } else {
+        window.location.hash = valid;
+      }
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
   };
 
   useEffect(() => {

@@ -50,13 +50,13 @@ import {
 export function AdminDashboardPage({ onNavigate }) {
   const { admin } = useAuth();
 
-  // Data states
-  const [students, setStudents] = useState([]);
-  const [sessions, setSessions] = useState([]);
-  const [attendanceRecords, setAttendanceRecords] = useState([]);
-  const [volunteers, setVolunteers] = useState([]);
+  // Data states initialized with live data
+  const [students, setStudents] = useState(() => getAllStudents() || []);
+  const [sessions, setSessions] = useState(() => getAllSessions() || []);
+  const [attendanceRecords, setAttendanceRecords] = useState(() => getAllAttendanceRecords() || []);
+  const [volunteers, setVolunteers] = useState(() => getAllVolunteers() || []);
   const [selectedSessionId, setSelectedSessionId] = useState('ALL');
-  const [stats, setStats] = useState({ totalDelegates: 0, present: 0, absent: 0, notMarked: 0, attendancePercentage: 0 });
+  const [stats, setStats] = useState(() => getAttendanceStats() || { totalDelegates: 0, present: 0, absent: 0, notMarked: 0, attendancePercentage: 0 });
 
   // Filter & Search states
   const [searchQuery, setSearchQuery] = useState('');
@@ -85,10 +85,10 @@ export function AdminDashboardPage({ onNavigate }) {
     }
 
     const refreshData = () => {
-      const allStu = getAllStudents();
-      const allSess = getAllSessions();
-      const allRecs = getAllAttendanceRecords();
-      const allVols = getAllVolunteers();
+      const allStu = getAllStudents() || [];
+      const allSess = getAllSessions() || [];
+      const allRecs = getAllAttendanceRecords() || [];
+      const allVols = getAllVolunteers() || [];
       setStudents(allStu);
       setSessions(allSess);
       setAttendanceRecords(allRecs);
@@ -133,7 +133,9 @@ export function AdminDashboardPage({ onNavigate }) {
     });
 
     setIsCreatingSession(false);
-    setSelectedSessionId(created.sessionId);
+    if (created && created.sessionId) {
+      setSelectedSessionId(created.sessionId);
+    }
   };
 
   // Handle Attendance Change Confirmation
@@ -190,9 +192,13 @@ export function AdminDashboardPage({ onNavigate }) {
   const sessionRecordMap = useMemo(() => {
     const map = new Map();
     if (selectedSessionId && selectedSessionId !== 'ALL') {
-      attendanceRecords
-        .filter(r => r.sessionId === selectedSessionId)
-        .forEach(r => map.set(r.registrationCode.trim().toLowerCase(), r));
+      (attendanceRecords || [])
+        .filter(r => r && r.sessionId === selectedSessionId)
+        .forEach(r => {
+          if (r.registrationCode) {
+            map.set(r.registrationCode.trim().toLowerCase(), r);
+          }
+        });
     }
     return map;
   }, [attendanceRecords, selectedSessionId]);
@@ -201,10 +207,13 @@ export function AdminDashboardPage({ onNavigate }) {
   const filteredStudents = useMemo(() => {
     const query = searchQuery.trim().toLowerCase();
     const isSessionFiltered = selectedSessionId !== 'ALL';
+    const rawList = Array.isArray(students) ? students : [];
 
-    return students.map(s => {
+    return rawList.map(s => {
+      if (!s) return s;
       if (isSessionFiltered) {
-        const rec = sessionRecordMap.get(s.registrationCode.trim().toLowerCase());
+        const regKey = String(s.registrationCode || '').trim().toLowerCase();
+        const rec = sessionRecordMap.get(regKey);
         return {
           ...s,
           attendance: rec ? rec.status : 'NOT MARKED',
@@ -215,31 +224,30 @@ export function AdminDashboardPage({ onNavigate }) {
       }
       return s;
     }).filter(s => {
-      // Filter by Status
-      const studentStatus = (s.attendance || 'NOT MARKED').toUpperCase();
+      if (!s) return false;
+      const studentStatus = String(s.attendance || 'NOT MARKED').toUpperCase();
       if (statusFilter !== 'ALL' && studentStatus !== statusFilter) {
         return false;
       }
 
-      // Filter by Search Query
       if (!query) return true;
 
-      const reg = (s.registrationCode || '').toLowerCase();
-      const name = (s.delegateFullName || '').toLowerCase();
+      const reg = String(s.registrationCode || '').toLowerCase();
+      const name = String(s.delegateFullName || '').toLowerCase();
       const mobile = String(s.mobileNumber || '').toLowerCase();
-      const col = (s.college || '').toLowerCase();
-      const pass = (s.passCode || '').toLowerCase();
-      const scannedBy = (s.scannedBy || '').toLowerCase();
+      const col = String(s.college || '').toLowerCase();
+      const pass = String(s.passCode || '').toLowerCase();
+      const scannedBy = String(s.scannedBy || '').toLowerCase();
 
       return reg.includes(query) || name.includes(query) || mobile.includes(query) || col.includes(query) || pass.includes(query) || scannedBy.includes(query);
     });
   }, [students, searchQuery, statusFilter, selectedSessionId, sessionRecordMap]);
 
   // Pagination calculation
-  const totalPages = Math.ceil(filteredStudents.length / pageSize) || 1;
+  const totalPages = Math.ceil((filteredStudents?.length || 0) / pageSize) || 1;
   const paginatedStudents = useMemo(() => {
     const start = (currentPage - 1) * pageSize;
-    return filteredStudents.slice(start, start + pageSize);
+    return (filteredStudents || []).slice(start, start + pageSize);
   }, [filteredStudents, currentPage]);
 
   return (

@@ -30,9 +30,7 @@ export class ErrorBoundary extends React.Component {
             </p>
             <button
               onClick={() => {
-                window.location.hash = '';
-                window.location.pathname = '/';
-                window.location.reload();
+                window.location.href = '/';
               }}
               style={{ background: '#2563eb', color: '#ffffff', border: 'none', padding: '0.75rem 1.5rem', borderRadius: '8px', fontWeight: 700, cursor: 'pointer', fontSize: '0.95rem' }}
             >
