@@ -1,9 +1,8 @@
-import React, { useState, useEffect, useMemo } from 'react';
-import { useAuth } from '../context/AuthContext';
 import { 
   getAllStudents, 
   getAllSessions, 
   getAllVolunteers,
+  getAllAttendanceRecords,
   updateVolunteer,
   getAttendanceStats, 
   createSession, 
@@ -11,6 +10,7 @@ import {
   deleteSession,
   adminSetStudentAttendance, 
   exportAttendanceExcel,
+  exportSessionAttendanceExcel,
   importCustomExcelFile,
   initializeDB,
   subscribeToDB
@@ -43,7 +43,8 @@ import {
   Radio,
   UserCheck,
   Edit3,
-  Percent
+  Percent,
+  FileSpreadsheet
 } from 'lucide-react';
 
 export function AdminDashboardPage({ onNavigate }) {
@@ -52,7 +53,9 @@ export function AdminDashboardPage({ onNavigate }) {
   // Data states
   const [students, setStudents] = useState([]);
   const [sessions, setSessions] = useState([]);
+  const [attendanceRecords, setAttendanceRecords] = useState([]);
   const [volunteers, setVolunteers] = useState([]);
+  const [selectedSessionId, setSelectedSessionId] = useState('ALL');
   const [stats, setStats] = useState({ totalDelegates: 0, present: 0, absent: 0, notMarked: 0, attendancePercentage: 0 });
 
   // Filter & Search states
@@ -82,16 +85,25 @@ export function AdminDashboardPage({ onNavigate }) {
     }
 
     const refreshData = () => {
-      setStudents(getAllStudents());
-      setSessions(getAllSessions());
-      setVolunteers(getAllVolunteers());
-      setStats(getAttendanceStats());
+      const allStu = getAllStudents();
+      const allSess = getAllSessions();
+      const allRecs = getAllAttendanceRecords();
+      const allVols = getAllVolunteers();
+      setStudents(allStu);
+      setSessions(allSess);
+      setAttendanceRecords(allRecs);
+      setVolunteers(allVols);
+      setStats(getAttendanceStats(selectedSessionId));
     };
 
     refreshData();
     const unsubscribe = subscribeToDB(() => refreshData());
     return unsubscribe;
-  }, [admin, onNavigate]);
+  }, [admin, selectedSessionId, onNavigate]);
+
+  useEffect(() => {
+    setStats(getAttendanceStats(selectedSessionId));
+  }, [selectedSessionId, students, attendanceRecords]);
 
   if (!admin) return null;
 
@@ -113,7 +125,7 @@ export function AdminDashboardPage({ onNavigate }) {
       return;
     }
 
-    createSession({
+    const created = createSession({
       sessionName: newSessionName,
       date: newSessionDate,
       startTime: newSessionStartTime,
@@ -121,6 +133,7 @@ export function AdminDashboardPage({ onNavigate }) {
     });
 
     setIsCreatingSession(false);
+    setSelectedSessionId(created.sessionId);
   };
 
   // Handle Attendance Change Confirmation
@@ -131,6 +144,7 @@ export function AdminDashboardPage({ onNavigate }) {
     adminSetStudentAttendance({
       registrationCode: student.registrationCode,
       newStatus,
+      sessionId: selectedSessionId !== 'ALL' ? selectedSessionId : null,
       adminName: 'Admin'
     });
 
@@ -172,10 +186,35 @@ export function AdminDashboardPage({ onNavigate }) {
     }
   };
 
+  // Session-specific records map
+  const sessionRecordMap = useMemo(() => {
+    const map = new Map();
+    if (selectedSessionId && selectedSessionId !== 'ALL') {
+      attendanceRecords
+        .filter(r => r.sessionId === selectedSessionId)
+        .forEach(r => map.set(r.registrationCode.trim().toLowerCase(), r));
+    }
+    return map;
+  }, [attendanceRecords, selectedSessionId]);
+
   // Filtered Students List
   const filteredStudents = useMemo(() => {
     const query = searchQuery.trim().toLowerCase();
-    return students.filter(s => {
+    const isSessionFiltered = selectedSessionId !== 'ALL';
+
+    return students.map(s => {
+      if (isSessionFiltered) {
+        const rec = sessionRecordMap.get(s.registrationCode.trim().toLowerCase());
+        return {
+          ...s,
+          attendance: rec ? rec.status : 'NOT MARKED',
+          attendanceDate: rec ? rec.date : '-',
+          attendanceTime: rec ? rec.time : '-',
+          scannedBy: rec ? (rec.scannedBy || '-') : '-'
+        };
+      }
+      return s;
+    }).filter(s => {
       // Filter by Status
       const studentStatus = (s.attendance || 'NOT MARKED').toUpperCase();
       if (statusFilter !== 'ALL' && studentStatus !== statusFilter) {
@@ -194,7 +233,7 @@ export function AdminDashboardPage({ onNavigate }) {
 
       return reg.includes(query) || name.includes(query) || mobile.includes(query) || col.includes(query) || pass.includes(query) || scannedBy.includes(query);
     });
-  }, [students, searchQuery, statusFilter]);
+  }, [students, searchQuery, statusFilter, selectedSessionId, sessionRecordMap]);
 
   // Pagination calculation
   const totalPages = Math.ceil(filteredStudents.length / pageSize) || 1;
@@ -222,11 +261,11 @@ export function AdminDashboardPage({ onNavigate }) {
           <button 
             type="button" 
             className="btn btn-primary"
-            onClick={exportAttendanceExcel}
+            onClick={() => exportAttendanceExcel(selectedSessionId)}
             title="Download full attendance report with volunteer scan info as .xlsx"
           >
             <Download size={16} />
-            <span>Export Excel</span>
+            <span>{selectedSessionId === 'ALL' ? 'Export Overall Excel' : 'Export Session Excel'}</span>
           </button>
 
           <label className="btn btn-secondary" style={{ cursor: 'pointer', margin: 0 }}>
@@ -507,7 +546,18 @@ export function AdminDashboardPage({ onNavigate }) {
                         </span>
                       </td>
                       <td style={{ textAlign: 'right' }}>
-                        <div style={{ display: 'inline-flex', gap: '0.4rem', alignItems: 'center' }}>
+                        <div style={{ display: 'inline-flex', gap: '0.4rem', alignItems: 'center', flexWrap: 'wrap', justifyContent: 'flex-end' }}>
+                          <button
+                            type="button"
+                            className="btn btn-secondary btn-sm"
+                            onClick={() => exportSessionAttendanceExcel(sess.sessionId)}
+                            title={`Download individual Excel report for ${sess.sessionName}`}
+                            style={{ color: '#2563eb', borderColor: '#bfdbfe' }}
+                          >
+                            <Download size={13} color="#2563eb" />
+                            <span>Export Excel</span>
+                          </button>
+
                           {sess.status === 'Closed' ? (
                             <button 
                               type="button" 
@@ -562,7 +612,10 @@ export function AdminDashboardPage({ onNavigate }) {
               <span>Delegates Attendance Table</span>
             </h2>
             <p style={{ fontSize: '0.85rem', color: 'var(--text-secondary)', marginTop: '0.2rem' }}>
-              Live attendance records showing volunteer check-in details and real-time status.
+              {selectedSessionId === 'ALL' 
+                ? 'Showing overall attendance status across all events.'
+                : `Viewing attendance specifically for ${sessions.find(s => s.sessionId === selectedSessionId)?.sessionName || 'Selected Session'}.`
+              }
             </p>
           </div>
 
@@ -573,10 +626,34 @@ export function AdminDashboardPage({ onNavigate }) {
 
         {/* Filter & Search Bar */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem', marginBottom: '1.25rem' }}>
-          <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap' }}>
+          <div style={{ display: 'flex', gap: '1rem', flexWrap: 'wrap', alignItems: 'center' }}>
             
+            {/* Session Selector Dropdown */}
+            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', flex: '0 1 auto' }}>
+              <span style={{ fontSize: '0.825rem', fontWeight: 700, color: 'var(--text-primary)', whiteSpace: 'nowrap', display: 'flex', alignItems: 'center', gap: '4px' }}>
+                <FileSpreadsheet size={15} color="#2563eb" />
+                <span>Session:</span>
+              </span>
+              <select
+                className="form-control"
+                style={{ fontSize: '0.875rem', padding: '0.45rem 0.85rem', minWidth: '220px', fontWeight: 600, borderColor: '#93c5fd' }}
+                value={selectedSessionId}
+                onChange={(e) => {
+                  setSelectedSessionId(e.target.value);
+                  setCurrentPage(1);
+                }}
+              >
+                <option value="ALL">All Sessions (Overall)</option>
+                {sessions.map(s => (
+                  <option key={s.sessionId} value={s.sessionId}>
+                    {s.sessionName} ({s.date})
+                  </option>
+                ))}
+              </select>
+            </div>
+
             {/* Search Input */}
-            <div style={{ position: 'relative', flex: '1 1 280px' }}>
+            <div style={{ position: 'relative', flex: '1 1 240px' }}>
               <Search size={16} color="#94a3b8" style={{ position: 'absolute', left: '12px', top: '50%', transform: 'translateY(-50%)' }} />
               <input
                 type="text"
@@ -604,7 +681,7 @@ export function AdminDashboardPage({ onNavigate }) {
                   }}
                   style={{ textTransform: 'capitalize' }}
                 >
-                  {filterVal === 'ALL' ? 'All Students' : filterVal}
+                  {filterVal === 'ALL' ? 'All' : filterVal}
                 </button>
               ))}
             </div>

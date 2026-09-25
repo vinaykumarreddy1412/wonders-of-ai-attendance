@@ -529,22 +529,26 @@ export function recordAttendanceByVolunteer({ qrPayload, volunteerName }) {
   }
 
   const records = getAllAttendanceRecords();
-  const todayStr = formatDate(new Date());
+  const sessions = getAllSessions();
+  const activeSession = sessions.find(s => s.status === 'Active' || s.status === 'ACTIVE') || (sessions.length > 0 ? sessions[0] : null);
+  const sessionId = activeSession ? activeSession.sessionId : 'sess_main';
+  const sessionName = activeSession ? activeSession.sessionName : 'Euphoria 2026';
 
-  // Duplicate Check
+  // Duplicate Check for this session
   const existingRecord = records.find(
     r => r.registrationCode.trim().toLowerCase() === student.registrationCode.trim().toLowerCase() &&
-         (r.status === 'PRESENT' || r.date === todayStr)
+         r.sessionId === sessionId &&
+         r.status === 'PRESENT'
   );
 
-  if (student.attendance === 'PRESENT' || existingRecord) {
-    const originalTime = existingRecord ? existingRecord.time : (student.attendanceTime || 'Earlier');
+  if (existingRecord) {
+    const originalTime = existingRecord.time || 'Earlier';
     return {
       success: false,
       isDuplicate: true,
       errorType: 'DUPLICATE',
       title: 'ATTENDANCE ALREADY MARKED',
-      message: 'Attendance already marked for this session.',
+      message: `Attendance already marked for ${sessionName}.`,
       student,
       originalTime
     };
@@ -553,9 +557,6 @@ export function recordAttendanceByVolunteer({ qrPayload, volunteerName }) {
   const now = new Date();
   const dateStr = formatDate(now);
   const timeStr = formatTimeAMPM(now);
-  const sessions = getAllSessions();
-  const sessionName = sessions.length > 0 ? sessions[0].sessionName : 'Euphoria 2026';
-  const sessionId = sessions.length > 0 ? sessions[0].sessionId : 'sess_main';
 
   const newRecord = {
     attendanceId: 'att_' + Date.now() + '_' + Math.random().toString(36).substring(2, 6),
@@ -577,7 +578,7 @@ export function recordAttendanceByVolunteer({ qrPayload, volunteerName }) {
   records.unshift(newRecord);
   saveAllAttendanceRecords(records);
 
-  // Update student database entry
+  // Update student database entry (latest attendance info)
   const students = getAllStudents();
   const studentIdx = students.findIndex(
     s => s.registrationCode.trim().toLowerCase() === student.registrationCode.trim().toLowerCase()
@@ -738,19 +739,33 @@ export function adminSetStudentAttendance({ registrationCode, newStatus, session
 
 /* ==================== STATS ==================== */
 
-export function getAttendanceStats() {
+export function getAttendanceStats(sessionId = null) {
   const students = getAllStudents();
+  const records = getAllAttendanceRecords();
   const totalDelegates = students.length;
   let present = 0;
   let absent = 0;
   let notMarked = 0;
 
-  students.forEach(s => {
-    const status = (s.attendance || 'NOT MARKED').toUpperCase();
-    if (status === 'PRESENT') present++;
-    else if (status === 'ABSENT') absent++;
-    else notMarked++;
-  });
+  if (sessionId && sessionId !== 'ALL') {
+    const sessionRecords = records.filter(r => r.sessionId === sessionId);
+    const sessionRecordMap = new Map();
+    sessionRecords.forEach(r => sessionRecordMap.set(r.registrationCode.trim().toLowerCase(), r));
+
+    students.forEach(s => {
+      const rec = sessionRecordMap.get(s.registrationCode.trim().toLowerCase());
+      if (rec && rec.status === 'PRESENT') present++;
+      else if (rec && rec.status === 'ABSENT') absent++;
+      else notMarked++;
+    });
+  } else {
+    students.forEach(s => {
+      const status = (s.attendance || 'NOT MARKED').toUpperCase();
+      if (status === 'PRESENT') present++;
+      else if (status === 'ABSENT') absent++;
+      else notMarked++;
+    });
+  }
 
   const attendancePercentage = totalDelegates > 0 
     ? Math.round((present / totalDelegates) * 100) 
@@ -768,9 +783,75 @@ export function getAttendanceStats() {
 /* ==================== EXCEL EXPORT & IMPORT ==================== */
 
 /**
- * Export attendance data to Excel .xlsx file
+ * Export individual Excel report for a specific session
  */
-export function exportAttendanceExcel() {
+export function exportSessionAttendanceExcel(sessionId) {
+  const sessions = getAllSessions();
+  const targetSession = sessions.find(s => s.sessionId === sessionId) || (sessions.length > 0 ? sessions[0] : null);
+  
+  if (!targetSession) {
+    alert('Session not found for export.');
+    return;
+  }
+
+  const students = getAllStudents();
+  const records = getAllAttendanceRecords();
+  const sessionRecords = records.filter(r => r.sessionId === targetSession.sessionId);
+
+  const recordMap = new Map();
+  sessionRecords.forEach(rec => {
+    recordMap.set(rec.registrationCode.trim().toLowerCase(), rec);
+  });
+
+  const exportRows = students.map((student) => {
+    const key = student.registrationCode.trim().toLowerCase();
+    const rec = recordMap.get(key);
+
+    return {
+      'Registration Code': student.registrationCode,
+      'Delegate Full Name': student.delegateFullName,
+      'Mobile Number': student.mobileNumber,
+      'College / Institution': student.college,
+      'Pass Code': student.passCode,
+      'Session Name': targetSession.sessionName,
+      'Session Date': targetSession.date,
+      'Attendance Status': rec ? rec.status : 'NOT MARKED',
+      'Check-in Time': rec ? rec.time : '-',
+      'Scanned By': rec ? (rec.scannedBy || '-') : '-'
+    };
+  });
+
+  const worksheet = XLSX.utils.json_to_sheet(exportRows);
+  const colWidths = [
+    { wch: 22 }, // Reg code
+    { wch: 28 }, // Name
+    { wch: 16 }, // Mobile
+    { wch: 32 }, // College
+    { wch: 20 }, // Pass Code
+    { wch: 24 }, // Session Name
+    { wch: 16 }, // Session Date
+    { wch: 18 }, // Attendance Status
+    { wch: 16 }, // Check-in Time
+    { wch: 20 }  // Scanned By
+  ];
+  worksheet['!cols'] = colWidths;
+
+  const workbook = XLSX.utils.book_new();
+  const safeSheetName = targetSession.sessionName.substring(0, 31).replace(/[\\/?*[\]]/g, '_');
+  XLSX.utils.book_append_sheet(workbook, worksheet, safeSheetName || 'Attendance');
+
+  const safeFileName = `Euphoria_Attendance_${targetSession.sessionName.replace(/[^\w-]/g, '_')}_${targetSession.date.replace(/\//g, '-')}.xlsx`;
+  XLSX.writeFile(workbook, safeFileName);
+}
+
+/**
+ * Export overall attendance data to Excel .xlsx file
+ */
+export function exportAttendanceExcel(selectedSessionId = null) {
+  if (selectedSessionId && selectedSessionId !== 'ALL') {
+    return exportSessionAttendanceExcel(selectedSessionId);
+  }
+
   const students = getAllStudents();
   const records = getAllAttendanceRecords();
   const sessions = getAllSessions();
@@ -821,7 +902,7 @@ export function exportAttendanceExcel() {
   const workbook = XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(workbook, worksheet, 'Attendance');
 
-  const fileName = `Euphoria_2026_Attendance_${formatDate(new Date()).replace(/\//g, '-')}.xlsx`;
+  const fileName = `Euphoria_2026_Overall_Attendance_${formatDate(new Date()).replace(/\//g, '-')}.xlsx`;
   XLSX.writeFile(workbook, fileName);
 }
 
