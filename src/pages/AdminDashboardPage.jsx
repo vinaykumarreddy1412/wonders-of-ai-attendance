@@ -1,3 +1,5 @@
+import React, { useState, useEffect, useMemo } from 'react';
+import { useAuth } from '../context/AuthContext';
 import { 
   getAllStudents, 
   getAllSessions, 

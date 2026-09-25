@@ -67,6 +67,14 @@ function Router() {
   };
 
   useEffect(() => {
+    // Clean URL on first load if pathname is non-root
+    if (typeof window !== 'undefined' && window.location.pathname !== '/') {
+      const initial = getInitialRoute();
+      if (window.history && window.history.replaceState) {
+        window.history.replaceState(null, '', '/#' + initial);
+      }
+    }
+
     const handleRouteSync = () => {
       if (window.location.hash) {
         const fromHash = normalizeRoute(window.location.hash);
