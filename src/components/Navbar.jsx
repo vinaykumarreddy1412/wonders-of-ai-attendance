@@ -96,13 +96,24 @@ export function Navbar({ activeRoute, onNavigate }) {
 
           {/* Guest Nav */}
           {!student && !admin && !volunteer && (
-            <div style={{ display: 'flex', gap: '0.4rem', alignItems: 'center' }}>
+            <div style={{ display: 'flex', gap: '0.5rem', alignItems: 'center' }}>
               {activeRoute !== '/student/login' && (
                 <button 
                   className="btn btn-primary btn-sm"
                   onClick={() => onNavigate('/student/login')}
                 >
                   Student Login
+                </button>
+              )}
+              {activeRoute !== '/admin/login' && (
+                <button 
+                  className="btn btn-secondary btn-sm"
+                  onClick={() => onNavigate('/admin/login')}
+                  title="Admin Portal Login"
+                  style={{ display: 'flex', alignItems: 'center', gap: '4px', fontSize: '0.8rem' }}
+                >
+                  <ShieldCheck size={14} color="#2563eb" />
+                  <span>Admin</span>
                 </button>
               )}
             </div>

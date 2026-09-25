@@ -26,9 +26,10 @@ function Router() {
   // Get initial route from pathname or hash
   const getInitialRoute = () => {
     if (typeof window === 'undefined') return '/';
-    const hash = window.location.hash.replace('#', '');
-    if (hash && VALID_ROUTES.includes(hash)) {
-      return hash;
+    const hash = window.location.hash.replace(/^#/, '');
+    const cleanHash = hash.startsWith('/') ? hash : '/' + hash;
+    if (hash && VALID_ROUTES.includes(cleanHash)) {
+      return cleanHash;
     }
     const path = window.location.pathname;
     if (VALID_ROUTES.includes(path)) {
@@ -42,19 +43,34 @@ function Router() {
   const navigate = (to) => {
     setCurrentRoute(to);
     window.location.hash = to;
+    if (window.history && window.history.pushState) {
+      try {
+        window.history.pushState(null, '', to);
+      } catch (e) {}
+    }
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   useEffect(() => {
-    const handleHashChange = () => {
-      const hash = window.location.hash.replace('#', '') || '/';
-      if (VALID_ROUTES.includes(hash)) {
-        setCurrentRoute(hash);
+    const handleRouteSync = () => {
+      const hash = window.location.hash.replace(/^#/, '');
+      const cleanHash = hash.startsWith('/') ? hash : '/' + hash;
+      if (hash && VALID_ROUTES.includes(cleanHash)) {
+        setCurrentRoute(cleanHash);
+        return;
+      }
+      const path = window.location.pathname;
+      if (VALID_ROUTES.includes(path)) {
+        setCurrentRoute(path);
       }
     };
 
-    window.addEventListener('hashchange', handleHashChange);
-    return () => window.removeEventListener('hashchange', handleHashChange);
+    window.addEventListener('hashchange', handleRouteSync);
+    window.addEventListener('popstate', handleRouteSync);
+    return () => {
+      window.removeEventListener('hashchange', handleRouteSync);
+      window.removeEventListener('popstate', handleRouteSync);
+    };
   }, []);
 
   // Route protection rules
