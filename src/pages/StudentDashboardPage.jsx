@@ -3,6 +3,7 @@ import { useAuth } from '../context/AuthContext';
 import { 
   getStudentAttendanceHistory, 
   getParticipantQRPayload,
+  findStudentByRegCode,
   subscribeToDB 
 } from '../services/db';
 import QRCode from 'qrcode';
@@ -23,8 +24,10 @@ import {
 
 export function StudentDashboardPage({ onNavigate }) {
   const { student } = useAuth();
+  const [currentStudent, setCurrentStudent] = useState(student);
   const [history, setHistory] = useState([]);
   const [participantQrUrl, setParticipantQrUrl] = useState('');
+  const [justMarkedPresent, setJustMarkedPresent] = useState(false);
 
   useEffect(() => {
     if (!student) {
@@ -33,8 +36,14 @@ export function StudentDashboardPage({ onNavigate }) {
     }
 
     const loadData = () => {
+      const fresh = findStudentByRegCode(student.registrationCode) || student;
+      setCurrentStudent(fresh);
       const records = getStudentAttendanceHistory(student.registrationCode);
       setHistory(records);
+
+      if (fresh.attendance === 'PRESENT' && (!currentStudent || currentStudent.attendance !== 'PRESENT')) {
+        setJustMarkedPresent(true);
+      }
     };
 
     loadData();
@@ -60,7 +69,8 @@ export function StudentDashboardPage({ onNavigate }) {
 
   if (!student) return null;
 
-  const isPresent = student.attendance === 'PRESENT';
+  const displayStudent = currentStudent || student;
+  const isPresent = displayStudent.attendance === 'PRESENT';
 
   const handleDownloadQR = () => {
     if (!participantQrUrl) return;
@@ -91,7 +101,7 @@ export function StudentDashboardPage({ onNavigate }) {
                 PARTICIPANT / STUDENT PORTAL
               </span>
               <h1 style={{ fontSize: '1.75rem', fontWeight: 800, marginTop: '0.2rem', color: 'var(--text-primary)' }}>
-                Welcome, {student.delegateFullName}
+                Welcome, {displayStudent.delegateFullName}
               </h1>
             </div>
 
@@ -105,10 +115,24 @@ export function StudentDashboardPage({ onNavigate }) {
                 style={{ fontSize: '0.9rem', padding: '0.45rem 1rem' }}
               >
                 {isPresent ? <CheckCircle2 size={16} /> : <Clock size={16} />}
-                <span>{student.attendance || 'NOT MARKED'}</span>
+                <span>{displayStudent.attendance || 'NOT MARKED'}</span>
               </span>
             </div>
           </div>
+
+          {/* If marked present, show instant success banner */}
+          {isPresent && (
+            <div style={{ background: '#ecfdf5', border: '1px solid #a7f3d0', padding: '0.85rem 1.25rem', borderRadius: '10px', display: 'flex', alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: '0.5rem', marginTop: '0.25rem' }}>
+              <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#065f46', fontSize: '0.9rem', fontWeight: 700 }}>
+                <CheckCircle2 size={18} color="#059669" />
+                <span>Attendance Verified & Recorded!</span>
+              </div>
+              <div style={{ fontSize: '0.8rem', color: '#047857' }}>
+                {displayStudent.attendanceTime && <span>Recorded at <strong>{displayStudent.attendanceTime}</strong></span>}
+                {displayStudent.scannedBy && <span> by <strong>{displayStudent.scannedBy}</strong></span>}
+              </div>
+            </div>
+          )}
 
           {/* Student Information Grid */}
           <div 
@@ -129,7 +153,7 @@ export function StudentDashboardPage({ onNavigate }) {
                 <span>Registration Code</span>
               </div>
               <p style={{ fontWeight: 700, fontSize: '0.95rem', color: 'var(--text-primary)', fontFamily: 'monospace' }}>
-                {student.registrationCode}
+                {displayStudent.registrationCode}
               </p>
             </div>
 
@@ -139,7 +163,7 @@ export function StudentDashboardPage({ onNavigate }) {
                 <span>College / Institution</span>
               </div>
               <p style={{ fontWeight: 600, fontSize: '0.9rem', color: 'var(--text-primary)' }}>
-                {student.college || 'Euphoria Participant'}
+                {displayStudent.college || 'Euphoria Participant'}
               </p>
             </div>
 
@@ -149,7 +173,7 @@ export function StudentDashboardPage({ onNavigate }) {
                 <span>Mobile Number</span>
               </div>
               <p style={{ fontWeight: 600, fontSize: '0.9rem', color: 'var(--text-primary)' }}>
-                {student.mobileNumber || '-'}
+                {displayStudent.mobileNumber || '-'}
               </p>
             </div>
           </div>
@@ -210,11 +234,11 @@ export function StudentDashboardPage({ onNavigate }) {
         <div style={{ maxWidth: '360px', margin: '0 auto 1.25rem auto', background: '#f8fafc', padding: '0.85rem 1.25rem', borderRadius: '10px', border: '1px solid #e2e8f0', textAlign: 'left', fontSize: '0.875rem' }}>
           <div style={{ display: 'flex', justifyContent: 'space-between', marginBottom: '0.35rem' }}>
             <span style={{ color: 'var(--text-muted)' }}>Registration Code:</span>
-            <span style={{ fontWeight: 700, fontFamily: 'monospace', color: 'var(--text-primary)' }}>{student.registrationCode}</span>
+            <span style={{ fontWeight: 700, fontFamily: 'monospace', color: 'var(--text-primary)' }}>{displayStudent.registrationCode}</span>
           </div>
           <div style={{ display: 'flex', justifyContent: 'space-between' }}>
             <span style={{ color: 'var(--text-muted)' }}>Name:</span>
-            <span style={{ fontWeight: 700, color: 'var(--text-primary)' }}>{student.delegateFullName}</span>
+            <span style={{ fontWeight: 700, color: 'var(--text-primary)' }}>{displayStudent.delegateFullName}</span>
           </div>
         </div>
 
