@@ -16,7 +16,6 @@ import {
   subscribeToDB
 } from '../services/db';
 import { formatDate, formatTimeAMPM, evaluateSessionStatus } from '../utils/timeUtils';
-import { QRDisplayModal } from '../components/QRDisplayModal';
 import { 
   Users, 
   CheckCircle2, 
@@ -71,7 +70,6 @@ export function AdminDashboardPage({ onNavigate }) {
   const [createError, setCreateError] = useState('');
 
   // Modals
-  const [activeQRModalSession, setActiveQRModalSession] = useState(null);
   const [selectedStudentModal, setSelectedStudentModal] = useState(null);
   const [confirmAttendanceChange, setConfirmAttendanceChange] = useState(null); // { student, newStatus }
   const [editingVolunteerModal, setEditingVolunteerModal] = useState(null); // { id, name, username, passCode }
@@ -115,7 +113,7 @@ export function AdminDashboardPage({ onNavigate }) {
       return;
     }
 
-    const created = createSession({
+    createSession({
       sessionName: newSessionName,
       date: newSessionDate,
       startTime: newSessionStartTime,
@@ -123,7 +121,6 @@ export function AdminDashboardPage({ onNavigate }) {
     });
 
     setIsCreatingSession(false);
-    setActiveQRModalSession(created);
   };
 
   // Handle Attendance Change Confirmation
@@ -510,24 +507,26 @@ export function AdminDashboardPage({ onNavigate }) {
                         </span>
                       </td>
                       <td style={{ textAlign: 'right' }}>
-                        <div style={{ display: 'inline-flex', gap: '0.4rem' }}>
+                        <div style={{ display: 'inline-flex', gap: '0.4rem', alignItems: 'center' }}>
                           {sess.status === 'Closed' ? (
                             <button 
                               type="button" 
-                              className="btn btn-secondary btn-sm"
+                              className="btn btn-success btn-sm"
                               onClick={() => updateSessionStatus(sess.sessionId, 'Active')}
-                              title="Reopen Session"
+                              title="Open / Reopen this attendance session anytime"
                             >
-                              Reopen
+                              <CheckCircle2 size={13} />
+                              <span>Open / Reopen</span>
                             </button>
                           ) : (
                             <button 
                               type="button" 
                               className="btn btn-secondary btn-sm"
                               onClick={() => updateSessionStatus(sess.sessionId, 'Closed')}
-                              title="Close Session"
+                              title="Close this attendance session"
                             >
-                              Close
+                              <XCircle size={13} color="#dc2626" />
+                              <span>Close Session</span>
                             </button>
                           )}
 
@@ -757,13 +756,6 @@ export function AdminDashboardPage({ onNavigate }) {
           </>
         )}
       </div>
-
-      {/* Official Large QR Code Display Modal (if needed for session projection) */}
-      <QRDisplayModal
-        session={activeQRModalSession}
-        isOpen={!!activeQRModalSession}
-        onClose={() => setActiveQRModalSession(null)}
-      />
 
       {/* Edit Volunteer Credentials Modal */}
       {editingVolunteerModal && (

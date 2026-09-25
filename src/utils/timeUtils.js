@@ -97,51 +97,23 @@ export function convert12To24(time12) {
 }
 
 /**
- * Check session status against current time
+ * Check session status with Admin override support
  * @param {Object} session 
- * @returns {{ status: 'ACTIVE' | 'UPCOMING' | 'ENDED' | 'CLOSED', message: string, canScan: boolean }}
+ * @returns {{ status: 'ACTIVE' | 'CLOSED', message: string, canScan: boolean }}
  */
 export function evaluateSessionStatus(session) {
   if (!session) {
     return { status: 'CLOSED', message: 'Session not found.', canScan: false };
   }
 
-  // If manually closed or overridden by admin
-  if (session.status === 'Closed' || session.status === 'CLOSED') {
+  // If manually closed or ended by admin
+  if (session.status === 'Closed' || session.status === 'CLOSED' || session.status === 'Ended') {
     return { status: 'CLOSED', message: 'This attendance session is currently closed.', canScan: false };
   }
 
-  // If manually forced open
-  if (session.status === 'Active_Manual') {
-    return { status: 'ACTIVE', message: 'Session is active (Manual override).', canScan: true };
-  }
-
-  const now = new Date();
-  const sessionDate = parseDateString(session.date);
-
-  // Normalize dates to midnight for date comparison
-  const nowMidnight = new Date(now.getFullYear(), now.getMonth(), now.getDate()).getTime();
-  const sessMidnight = new Date(sessionDate.getFullYear(), sessionDate.getMonth(), sessionDate.getDate()).getTime();
-
-  if (nowMidnight < sessMidnight) {
-    return { status: 'UPCOMING', message: `Attendance session starts on ${session.date} at ${session.startTime}.`, canScan: false };
-  }
-
-  if (nowMidnight > sessMidnight) {
-    return { status: 'ENDED', message: `Attendance session ended on ${session.date}.`, canScan: false };
-  }
-
-  // Today! Check time window
-  const currentMinutes = now.getHours() * 60 + now.getMinutes();
-  const startMinutes = parseTimeToMinutes(session.startTime);
-  const endMinutes = parseTimeToMinutes(session.endTime);
-
-  if (currentMinutes < startMinutes) {
-    return { status: 'UPCOMING', message: 'Attendance session has not started yet.', canScan: false };
-  }
-
-  if (currentMinutes > endMinutes) {
-    return { status: 'ENDED', message: 'Attendance session has ended.', canScan: false };
+  // If set to Active by Admin (can be opened or reopened at any time)
+  if (session.status === 'Active' || session.status === 'ACTIVE') {
+    return { status: 'ACTIVE', message: 'Attendance session is currently active.', canScan: true };
   }
 
   return { status: 'ACTIVE', message: 'Attendance session is currently active.', canScan: true };
